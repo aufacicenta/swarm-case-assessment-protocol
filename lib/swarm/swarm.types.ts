@@ -6,17 +6,44 @@ export type UserAttributes = {
   cases: CaseAttributes[];
 };
 
+export type TransactionAttributes = {
+  id: string;
+  user_id: string;
+  case_id: string;
+
+  /**
+   * unsigned integer with no decimals, we asume 2 decimal points like Stripe, eg. 1000 means 10.00
+   * this is the balance from which we charge our fees and pay the witnesses
+   */
+  amount: number;
+
+  provider: "stripe" | "paypal" | "crypto";
+  type: "card" | "deposit" | "crypto_tx";
+
+  status: "pending" | "complete"; // for a refund, we create a new Tx record
+  created_at: string;
+  updated_at: string;
+};
+
+/**
+ * Could also be "Campaign" or "Quest"
+ */
 export type CaseAttributes = {
   id: string;
-  text: string; // eg. Will something happen in the future?
-  criteria: CriteriaAttributes[]; // eg. yes or no
   user_id: string;
   user: UserAttributes;
+
+  transaction_id?: string;
+
+  text: string; // eg. Will something happen in the future?
+  criteria: CriteriaAttributes[]; // eg. yes or no
 
   starts_at: number;
   ends_at: number;
 
   judging_models: JudgingModelAttributes[];
+
+  map_bounds: string[][]; // latlang points, 2 depth array because a user may select different areas of the worldmap
 
   /**
    * instruction
@@ -27,7 +54,7 @@ export type CaseAttributes = {
    */
   instruction: string;
 
-  comments: CommentAttributes[];
+  evidence: EvidenceAttributes[];
   winning_criteria?: CriteriaAttributes;
 };
 
@@ -36,15 +63,23 @@ export type JudgingModelAttributes = {
   version: string; // eg. gpt-o1
 };
 
-export type CommentAttributes = {
+export type EvidenceAttributes = {
   id: string;
   text: string; // eg. any opinion about why yes or no of a Case.text
+
   user_id: string;
   user: UserAttributes;
+
   case_id: string;
-  winning_criteria?: CriteriaAttributes;
+
   channel_id: string;
   channel: ChannelAttributes;
+
+  winning_criteria?: CriteriaAttributes;
+
+  confidence_level?: number;
+  truthfulness_level?: number;
+  supportive_information?: number;
 };
 
 // could be Source

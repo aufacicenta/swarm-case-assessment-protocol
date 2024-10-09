@@ -2,7 +2,7 @@ import openai from "@/lib/openai";
 
 import {
   ChannelAttributes,
-  CommentAttributes,
+  EvidenceAttributes,
   CriteriaAttributes,
   CaseAttributes,
   UserAttributes,
@@ -21,9 +21,9 @@ class User {
 }
 
 class Comment {
-  attributes: CommentAttributes;
+  attributes: EvidenceAttributes;
 
-  constructor(args: CommentAttributes) {
+  constructor(args: EvidenceAttributes) {
     this.attributes = args;
   }
 
@@ -95,10 +95,10 @@ export class Case {
     this.criteria = args.criteria.map((c) => new Criteria(c));
   }
 
-  createComment(args: CommentAttributes): Comment {
+  createComment(args: EvidenceAttributes): Comment {
     const comment = new Comment(args);
 
-    this.attributes.comments.push(comment.attributes);
+    this.attributes.evidence.push(comment.attributes);
 
     return comment;
   }
@@ -115,16 +115,16 @@ export class Case {
         criteriaScoreMap[criteria.value] = { value: criteria.value, instances: [] };
       }
 
-      for (const comment of this.attributes.comments) {
+      for (const comment of this.attributes.evidence) {
         if (comment.winning_criteria) {
           const value = comment.winning_criteria.value.toLowerCase();
           criteriaScoreMap[value].instances.push(value);
         }
       }
 
-      const totalComments = this.attributes.comments.filter((c) => !!c.winning_criteria).length;
+      const totalComments = this.attributes.evidence.filter((c) => !!c.winning_criteria).length;
 
-      const updatedCriteria = [];
+      const updatedCriteria: CriteriaAttributes[] = [];
       for (const criteria of this.attributes.criteria) {
         const instances = criteriaScoreMap[criteria.value].instances.length;
         const percentage = totalComments > 0 ? instances / totalComments : 0;
@@ -134,9 +134,9 @@ export class Case {
 
       this.attributes.criteria = updatedCriteria;
 
-      const updatedComments: CommentAttributes[] = [];
+      const updatedComments: EvidenceAttributes[] = [];
 
-      for (const comment of this.attributes.comments) {
+      for (const comment of this.attributes.evidence) {
         if (comment.winning_criteria) {
           const updatedCriteria = this.attributes.criteria.find(
             (c) => c.value.toLowerCase() === comment.winning_criteria!.value.toLowerCase(),
@@ -150,7 +150,7 @@ export class Case {
         updatedComments.push(comment);
       }
 
-      this.attributes.comments = updatedComments;
+      this.attributes.evidence = updatedComments;
 
       const winningCriteria = this.attributes.criteria.reduce((prev, current) =>
         prev.score > current.score ? prev : current,
@@ -203,7 +203,8 @@ export class Deliberatorium {
       text: body.text,
       user_id: liberalLisa.attributes.id,
       user: liberalLisa.attributes,
-      comments: [],
+      evidence: [],
+      map_bounds: [],
 
       criteria: criteria.map((c: Criteria) => c.attributes),
 
@@ -248,7 +249,7 @@ Respond strictly with ${optionsText} only. Avoid adding any symbols or character
 
     const channels = [channel1, channel2, channel3, channel4];
 
-    const comments: CommentAttributes[] = exampleOpinions1.map((o, i) => {
+    const evidence: EvidenceAttributes[] = exampleOpinions1.map((o, i) => {
       const randomChannel = channels[Math.floor(Math.random() * channels.length)];
 
       return {
@@ -262,14 +263,14 @@ Respond strictly with ${optionsText} only. Avoid adding any symbols or character
       };
     });
 
-    comments.map((c) => _case.createComment(c));
+    evidence.map((c) => _case.createComment(c));
 
     return _case;
   }
 
   async assessCase(_case: Case): Promise<Case> {
     await Promise.all(
-      _case.attributes.comments.map(async (args) => {
+      _case.attributes.evidence.map(async (args) => {
         const comment = new Comment(args);
         return await comment.assess(_case);
       }),
