@@ -3,10 +3,10 @@ import openai from "@/lib/openai";
 import {
   ChannelAttributes,
   CommentAttributes,
-  CreatePostRequest,
   CriteriaAttributes,
   CaseAttributes,
   UserAttributes,
+  CreateCaseRequest,
 } from "./swarm.types";
 
 import userPersonas from "./user-personas.json";
@@ -171,7 +171,7 @@ export class Case {
 
 export class Deliberatorium {
   createCase(): Case {
-    const body: CreatePostRequest = {
+    const body: CreateCaseRequest = {
       text: "Ethereum above $2,600 on October 4?",
       criteria: [{ value: "yes" }, { value: "no" }],
     };
@@ -205,7 +205,7 @@ export class Deliberatorium {
       user: liberalLisa.attributes,
       comments: [],
 
-      criteria: criteria.map((c) => c.attributes),
+      criteria: criteria.map((c: Criteria) => c.attributes),
 
       instruction: `For the given question: ${body.text}\n
 Determine if "{{comment.text}}" leans more towards ${optionsText}.\n
@@ -248,15 +248,19 @@ Respond strictly with ${optionsText} only. Avoid adding any symbols or character
 
     const channels = [channel1, channel2, channel3, channel4];
 
-    const comments: CommentAttributes[] = exampleOpinions1.map((o, i) => ({
-      id: "id",
-      text: o.comment,
-      user_id: "user_id",
-      case_id: _case.attributes.id,
-      user: users[i].attributes,
-      channel_id: channels[Math.floor(Math.random() * channels.length)].attributes.id,
-      channel: channels[Math.floor(Math.random() * channels.length)].attributes,
-    }));
+    const comments: CommentAttributes[] = exampleOpinions1.map((o, i) => {
+      const randomChannel = channels[Math.floor(Math.random() * channels.length)];
+
+      return {
+        id: "id",
+        text: o.comment,
+        user_id: "user_id",
+        case_id: _case.attributes.id,
+        user: users[i].attributes,
+        channel_id: randomChannel.attributes.id,
+        channel: randomChannel.attributes,
+      };
+    });
 
     comments.map((c) => _case.createComment(c));
 

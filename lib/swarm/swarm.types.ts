@@ -22,7 +22,7 @@ export type CaseAttributes = {
    * instruction
    * This is for the AI to ingest.
    * eg. For the given question: "Will something happen in the future?"
-   * Determine if "{{ Comment.text }}" leans towards {{ Post.Criteria["yes"].value }} or {{ Post.Criteria["no"].value }}
+   * Determine if "{{ Comment.text }}" leans towards {{ Case.Criteria["yes"].value }} or {{ Case.Criteria["no"].value }}
    * Respond extrictly with "yes" or "no" only.
    */
   instruction: string;
@@ -38,11 +38,10 @@ export type JudgingModelAttributes = {
 
 export type CommentAttributes = {
   id: string;
-  text: string; // eg. any opinion about why yes or no of a Post.text
+  text: string; // eg. any opinion about why yes or no of a Case.text
   user_id: string;
   user: UserAttributes;
   case_id: string;
-  // post: CaseAttributes;
   winning_criteria?: CriteriaAttributes;
   channel_id: string;
   channel: ChannelAttributes;
@@ -56,11 +55,12 @@ export type ChannelAttributes = {
 };
 
 export type CriteriaAttributes = {
-  score: number; // a number between 0 and 1 representing the total weight of its value against a given Comment Assessment. It is updated on every Post.Comment iteration
+  score: number; // a number between 0 and 1 representing the total weight of its value against a given Comment Assessment. It is updated on every Case.Comment iteration
   value: string; // eg. yes. Could be a number too. This is how we measure the aggregated results. 70% yes, 30% no.
+  description?: string; // give AI instructions on how to read or interpret this value
 };
 
-export type CreatePostRequest = {
+export type CreateCaseRequest = {
   text: CaseAttributes["text"];
-  criteria: Pick<CriteriaAttributes, "value">[];
+  criteria: Pick<CriteriaAttributes, "value" | "description">[];
 };
