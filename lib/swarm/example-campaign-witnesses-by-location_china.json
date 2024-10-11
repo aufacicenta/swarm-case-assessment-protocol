@@ -1,0 +1,552 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "23.1291",
+                "long": "113.2644",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Guangzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.5431",
+                "long": "114.0579",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Shenzhen"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.0292",
+                "long": "113.7520",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Dongguan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.3790",
+                "long": "116.7150",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Shantou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.9379",
+                "long": "112.4462",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Foshan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "21.8628",
+                "long": "111.9820",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Zhanjiang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.2788",
+                "long": "113.5762",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Zhuhai"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.2936",
+                "long": "116.6292",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Meizhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.9174",
+                "long": "112.0605",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Zhaoqing"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.6618",
+                "long": "116.6301",
+                "country": "China",
+                "state": "Guangdong",
+                "city": "Jieyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "36.0671",
+                "long": "120.3826",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Qingdao"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "36.6683",
+                "long": "116.9972",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Jinan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "37.4631",
+                "long": "121.4480",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Yantai"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "36.7950",
+                "long": "118.0635",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Zibo"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "35.4264",
+                "long": "116.5854",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Jining"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "36.7847",
+                "long": "119.1611",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Weifang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.8155",
+                "long": "117.3235",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Linyi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "37.5354",
+                "long": "122.0114",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Weihai"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "36.4128",
+                "long": "115.9857",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Dezhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "35.2342",
+                "long": "115.4394",
+                "country": "China",
+                "state": "Shandong",
+                "city": "Heze"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.7472",
+                "long": "113.6249",
+                "country": "China",
+                "state": "Henan",
+                "city": "Zhengzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.7350",
+                "long": "113.1937",
+                "country": "China",
+                "state": "Henan",
+                "city": "Luoyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.7970",
+                "long": "114.3072",
+                "country": "China",
+                "state": "Henan",
+                "city": "Kaifeng"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.9697",
+                "long": "112.5283",
+                "country": "China",
+                "state": "Henan",
+                "city": "Nanyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.0090",
+                "long": "112.5428",
+                "country": "China",
+                "state": "Henan",
+                "city": "Xinyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "35.1917",
+                "long": "113.8668",
+                "country": "China",
+                "state": "Henan",
+                "city": "Anyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.7350",
+                "long": "113.8150",
+                "country": "China",
+                "state": "Henan",
+                "city": "Pingdingshan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.0261",
+                "long": "113.8520",
+                "country": "China",
+                "state": "Henan",
+                "city": "Xinxiang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.7522",
+                "long": "114.3852",
+                "country": "China",
+                "state": "Henan",
+                "city": "Shangqiu"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.0090",
+                "long": "114.0239",
+                "country": "China",
+                "state": "Henan",
+                "city": "Zhumadian"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.5728",
+                "long": "104.0668",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Chengdu"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "29.5530",
+                "long": "106.5516",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Mianyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.7617",
+                "long": "104.6419",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Deyang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "28.7604",
+                "long": "104.6419",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Yibin"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.6599",
+                "long": "103.7318",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Nanchong"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.4712",
+                "long": "104.6793",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Guangyuan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "29.3516",
+                "long": "105.0635",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Luzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.5156",
+                "long": "105.5714",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Suining"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.0799",
+                "long": "103.8313",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Leshan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.4487",
+                "long": "105.8398",
+                "country": "China",
+                "state": "Sichuan",
+                "city": "Bazhong"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.0617",
+                "long": "118.7778",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Nanjing"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.2989",
+                "long": "120.5853",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Suzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.5587",
+                "long": "120.2886",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Wuxi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.2604",
+                "long": "117.1841",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Xuzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.3912",
+                "long": "119.4151",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Yangzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.7736",
+                "long": "119.9522",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Changzhou"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.3575",
+                "long": "120.1573",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Yancheng"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.9702",
+                "long": "119.4746",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Zhenjiang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.5960",
+                "long": "118.7778",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Lianyungang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.7713",
+                "long": "120.2870",
+                "country": "China",
+                "state": "Jiangsu",
+                "city": "Taizhou"
+            }
+        ]
+    }
+]

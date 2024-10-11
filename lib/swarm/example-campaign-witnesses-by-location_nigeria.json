@@ -1,0 +1,222 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "6.4550",
+                "long": "3.3841",
+                "country": "Nigeria",
+                "state": "Lagos",
+                "city": "Lagos"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "6.5244",
+                "long": "3.3792",
+                "country": "Nigeria",
+                "state": "Lagos",
+                "city": "Ikeja"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "11.9964",
+                "long": "8.5167",
+                "country": "Nigeria",
+                "state": "Kano",
+                "city": "Kano"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "10.5222",
+                "long": "7.4383",
+                "country": "Nigeria",
+                "state": "Kaduna",
+                "city": "Kaduna"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "10.2968",
+                "long": "7.7345",
+                "country": "Nigeria",
+                "state": "Kaduna",
+                "city": "Zaria"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "12.9940",
+                "long": "7.6021",
+                "country": "Nigeria",
+                "state": "Katsina",
+                "city": "Katsina"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "7.3776",
+                "long": "3.9470",
+                "country": "Nigeria",
+                "state": "Oyo",
+                "city": "Ibadan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "8.4799",
+                "long": "4.5418",
+                "country": "Nigeria",
+                "state": "Kwara",
+                "city": "Ilorin"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "9.0579",
+                "long": "7.4951",
+                "country": "Nigeria",
+                "state": "Federal Capital Territory",
+                "city": "Abuja"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "6.3350",
+                "long": "5.6037",
+                "country": "Nigeria",
+                "state": "Edo",
+                "city": "Benin City"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "5.5167",
+                "long": "5.7500",
+                "country": "Nigeria",
+                "state": "Delta",
+                "city": "Warri"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "4.8156",
+                "long": "7.0498",
+                "country": "Nigeria",
+                "state": "Rivers",
+                "city": "Port Harcourt"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "6.2442",
+                "long": "6.7872",
+                "country": "Nigeria",
+                "state": "Anambra",
+                "city": "Onitsha"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "5.7908",
+                "long": "7.0861",
+                "country": "Nigeria",
+                "state": "Abia",
+                "city": "Aba"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "6.4551",
+                "long": "7.5105",
+                "country": "Nigeria",
+                "state": "Enugu",
+                "city": "Enugu"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "7.7246",
+                "long": "6.7264",
+                "country": "Nigeria",
+                "state": "Kogi",
+                "city": "Lokoja"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "11.8469",
+                "long": "13.1572",
+                "country": "Nigeria",
+                "state": "Borno",
+                "city": "Maiduguri"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "12.1704",
+                "long": "6.6614",
+                "country": "Nigeria",
+                "state": "Sokoto",
+                "city": "Sokoto"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "11.1168",
+                "long": "7.7263",
+                "country": "Nigeria",
+                "state": "Bauchi",
+                "city": "Bauchi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "9.8965",
+                "long": "8.8583",
+                "country": "Nigeria",
+                "state": "Plateau",
+                "city": "Jos"
+            }
+        ]
+    }
+]

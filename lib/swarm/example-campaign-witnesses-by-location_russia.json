@@ -1,0 +1,222 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "55.7558",
+                "long": "37.6173",
+                "country": "Russia",
+                "state": "Moscow",
+                "city": "Moscow"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "55.7522",
+                "long": "37.6156",
+                "country": "Russia",
+                "state": "Moscow Oblast",
+                "city": "Khimki"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "55.9736",
+                "long": "37.4125",
+                "country": "Russia",
+                "state": "Moscow Oblast",
+                "city": "Zelenograd"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "55.4255",
+                "long": "37.5555",
+                "country": "Russia",
+                "state": "Moscow Oblast",
+                "city": "Podolsk"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "59.9343",
+                "long": "30.3351",
+                "country": "Russia",
+                "state": "Saint Petersburg",
+                "city": "Saint Petersburg"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "56.8519",
+                "long": "60.6122",
+                "country": "Russia",
+                "state": "Sverdlovsk Oblast",
+                "city": "Yekaterinburg"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "55.0415",
+                "long": "82.9346",
+                "country": "Russia",
+                "state": "Novosibirsk Oblast",
+                "city": "Novosibirsk"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "55.7879",
+                "long": "49.1233",
+                "country": "Russia",
+                "state": "Republic of Tatarstan",
+                "city": "Kazan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "54.9833",
+                "long": "73.3667",
+                "country": "Russia",
+                "state": "Omsk Oblast",
+                "city": "Omsk"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "53.1959",
+                "long": "50.1001",
+                "country": "Russia",
+                "state": "Samara Oblast",
+                "city": "Samara"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "56.3287",
+                "long": "44.0020",
+                "country": "Russia",
+                "state": "Nizhny Novgorod Oblast",
+                "city": "Nizhny Novgorod"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "48.7194",
+                "long": "44.5018",
+                "country": "Russia",
+                "state": "Volgograd Oblast",
+                "city": "Volgograd"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "43.5992",
+                "long": "39.7257",
+                "country": "Russia",
+                "state": "Krasnodar Krai",
+                "city": "Sochi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "45.0428",
+                "long": "38.9760",
+                "country": "Russia",
+                "state": "Krasnodar Krai",
+                "city": "Krasnodar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "54.7388",
+                "long": "55.9721",
+                "country": "Russia",
+                "state": "Republic of Bashkortostan",
+                "city": "Ufa"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "51.5406",
+                "long": "46.0086",
+                "country": "Russia",
+                "state": "Saratov Oblast",
+                "city": "Saratov"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "56.8498",
+                "long": "53.2045",
+                "country": "Russia",
+                "state": "Udmurt Republic",
+                "city": "Izhevsk"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "57.1522",
+                "long": "65.5272",
+                "country": "Russia",
+                "state": "Tyumen Oblast",
+                "city": "Tyumen"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "53.5303",
+                "long": "49.3461",
+                "country": "Russia",
+                "state": "Samara Oblast",
+                "city": "Tolyatti"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "61.2500",
+                "long": "73.4167",
+                "country": "Russia",
+                "state": "Khanty-Mansi Autonomous Okrug",
+                "city": "Surgut"
+            }
+        ]
+    }
+]
