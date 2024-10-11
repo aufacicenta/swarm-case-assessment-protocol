@@ -1,0 +1,702 @@
+[
+    {
+        "id": "EM001",
+        "location_history": [
+            {
+                "lat": "19.2826",
+                "long": "-99.6557",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Toluca",
+                "created_at": "2024-03-15T10:30:00Z",
+                "updated_at": "2024-03-15T10:30:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM002",
+        "location_history": [
+            {
+                "lat": "19.4126",
+                "long": "-99.1656",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Ecatepec",
+                "created_at": "2024-03-15T10:31:00Z",
+                "updated_at": "2024-03-15T10:31:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM003",
+        "location_history": [
+            {
+                "lat": "19.3571",
+                "long": "-99.0669",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Nezahualcóyotl",
+                "created_at": "2024-03-15T10:32:00Z",
+                "updated_at": "2024-03-15T10:32:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM004",
+        "location_history": [
+            {
+                "lat": "19.6057",
+                "long": "-99.0368",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Tecámac",
+                "created_at": "2024-03-15T10:33:00Z",
+                "updated_at": "2024-03-15T10:33:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM005",
+        "location_history": [
+            {
+                "lat": "19.3038",
+                "long": "-98.8708",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Chalco",
+                "created_at": "2024-03-15T10:34:00Z",
+                "updated_at": "2024-03-15T10:34:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM006",
+        "location_history": [
+            {
+                "lat": "19.5538",
+                "long": "-99.2794",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Naucalpan",
+                "created_at": "2024-03-15T10:35:00Z",
+                "updated_at": "2024-03-15T10:35:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM007",
+        "location_history": [
+            {
+                "lat": "19.6463",
+                "long": "-99.2120",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Cuautitlán Izcalli",
+                "created_at": "2024-03-15T10:36:00Z",
+                "updated_at": "2024-03-15T10:36:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM008",
+        "location_history": [
+            {
+                "lat": "19.2837",
+                "long": "-98.9363",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Valle de Chalco",
+                "created_at": "2024-03-15T10:37:00Z",
+                "updated_at": "2024-03-15T10:37:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM009",
+        "location_history": [
+            {
+                "lat": "19.3723",
+                "long": "-99.2620",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Huixquilucan",
+                "created_at": "2024-03-15T10:38:00Z",
+                "updated_at": "2024-03-15T10:38:00Z"
+            }
+        ]
+    },
+    {
+        "id": "EM010",
+        "location_history": [
+            {
+                "lat": "19.5478",
+                "long": "-99.1663",
+                "country": "Mexico",
+                "state": "Estado de México",
+                "city": "Tultitlán",
+                "created_at": "2024-03-15T10:39:00Z",
+                "updated_at": "2024-03-15T10:39:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC001",
+        "location_history": [
+            {
+                "lat": "19.4326",
+                "long": "-99.1332",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Cuauhtémoc",
+                "created_at": "2024-03-15T10:40:00Z",
+                "updated_at": "2024-03-15T10:40:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC002",
+        "location_history": [
+            {
+                "lat": "19.3733",
+                "long": "-99.1459",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Coyoacán",
+                "created_at": "2024-03-15T10:41:00Z",
+                "updated_at": "2024-03-15T10:41:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC003",
+        "location_history": [
+            {
+                "lat": "19.4841",
+                "long": "-99.1843",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Miguel Hidalgo",
+                "created_at": "2024-03-15T10:42:00Z",
+                "updated_at": "2024-03-15T10:42:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC004",
+        "location_history": [
+            {
+                "lat": "19.3502",
+                "long": "-99.0404",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Iztapalapa",
+                "created_at": "2024-03-15T10:43:00Z",
+                "updated_at": "2024-03-15T10:43:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC005",
+        "location_history": [
+            {
+                "lat": "19.2845",
+                "long": "-99.1310",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Tlalpan",
+                "created_at": "2024-03-15T10:44:00Z",
+                "updated_at": "2024-03-15T10:44:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC006",
+        "location_history": [
+            {
+                "lat": "19.4021",
+                "long": "-99.1649",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Benito Juárez",
+                "created_at": "2024-03-15T10:45:00Z",
+                "updated_at": "2024-03-15T10:45:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC007",
+        "location_history": [
+            {
+                "lat": "19.4887",
+                "long": "-99.1270",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Gustavo A. Madero",
+                "created_at": "2024-03-15T10:46:00Z",
+                "updated_at": "2024-03-15T10:46:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC008",
+        "location_history": [
+            {
+                "lat": "19.3728",
+                "long": "-99.2679",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Álvaro Obregón",
+                "created_at": "2024-03-15T10:47:00Z",
+                "updated_at": "2024-03-15T10:47:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC009",
+        "location_history": [
+            {
+                "lat": "19.3356",
+                "long": "-99.1964",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Xochimilco",
+                "created_at": "2024-03-15T10:48:00Z",
+                "updated_at": "2024-03-15T10:48:00Z"
+            }
+        ]
+    },
+    {
+        "id": "MC010",
+        "location_history": [
+            {
+                "lat": "19.4458",
+                "long": "-99.2064",
+                "country": "Mexico",
+                "state": "Mexico City",
+                "city": "Azcapotzalco",
+                "created_at": "2024-03-15T10:49:00Z",
+                "updated_at": "2024-03-15T10:49:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA001",
+        "location_history": [
+            {
+                "lat": "20.6597",
+                "long": "-103.3496",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Guadalajara",
+                "created_at": "2024-03-15T10:50:00Z",
+                "updated_at": "2024-03-15T10:50:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA002",
+        "location_history": [
+            {
+                "lat": "20.6534",
+                "long": "-103.3925",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Zapopan",
+                "created_at": "2024-03-15T10:51:00Z",
+                "updated_at": "2024-03-15T10:51:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA003",
+        "location_history": [
+            {
+                "lat": "20.5547",
+                "long": "-103.2710",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Tlaquepaque",
+                "created_at": "2024-03-15T10:52:00Z",
+                "updated_at": "2024-03-15T10:52:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA004",
+        "location_history": [
+            {
+                "lat": "20.6190",
+                "long": "-103.2387",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Tonalá",
+                "created_at": "2024-03-15T10:53:00Z",
+                "updated_at": "2024-03-15T10:53:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA005",
+        "location_history": [
+            {
+                "lat": "20.7214",
+                "long": "-103.4578",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Tesistán",
+                "created_at": "2024-03-15T10:54:00Z",
+                "updated_at": "2024-03-15T10:54:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA006",
+        "location_history": [
+            {
+                "lat": "20.8911",
+                "long": "-103.8417",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Tequila",
+                "created_at": "2024-03-15T10:55:00Z",
+                "updated_at": "2024-03-15T10:55:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA007",
+        "location_history": [
+            {
+                "lat": "20.6774",
+                "long": "-103.3479",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "El Salto",
+                "created_at": "2024-03-15T10:56:00Z",
+                "updated_at": "2024-03-15T10:56:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA008",
+        "location_history": [
+            {
+                "lat": "20.5167",
+                "long": "-103.4500",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Tlajomulco de Zúñiga",
+                "created_at": "2024-03-15T10:57:00Z",
+                "updated_at": "2024-03-15T10:57:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA009",
+        "location_history": [
+            {
+                "lat": "20.8167",
+                "long": "-103.8333",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "Ameca",
+                "created_at": "2024-03-15T10:58:00Z",
+                "updated_at": "2024-03-15T10:58:00Z"
+            }
+        ]
+    },
+    {
+        "id": "JA010",
+        "location_history": [
+            {
+                "lat": "20.3667",
+                "long": "-102.7667",
+                "country": "Mexico",
+                "state": "Jalisco",
+                "city": "La Barca",
+                "created_at": "2024-03-15T10:59:00Z",
+                "updated_at": "2024-03-15T10:59:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE001",
+        "location_history": [
+            {
+                "lat": "19.1738",
+                "long": "-96.1342",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Veracruz",
+                "created_at": "2024-03-15T11:00:00Z",
+                "updated_at": "2024-03-15T11:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE002",
+        "location_history": [
+            {
+                "lat": "19.5438",
+                "long": "-96.9102",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Xalapa",
+                "created_at": "2024-03-15T11:01:00Z",
+                "updated_at": "2024-03-15T11:01:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE003",
+        "location_history": [
+            {
+                "lat": "18.1542",
+                "long": "-94.4558",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Coatzacoalcos",
+                "created_at": "2024-03-15T11:02:00Z",
+                "updated_at": "2024-03-15T11:02:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE004",
+        "location_history": [
+            {
+                "lat": "20.4519",
+                "long": "-97.3663",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Poza Rica",
+                "created_at": "2024-03-15T11:03:00Z",
+                "updated_at": "2024-03-15T11:03:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE005",
+        "location_history": [
+            {
+                "lat": "18.8500",
+                "long": "-96.9333",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Córdoba",
+                "created_at": "2024-03-15T11:04:00Z",
+                "updated_at": "2024-03-15T11:04:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE006",
+        "location_history": [
+            {
+                "lat": "18.0000",
+                "long": "-94.5500",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Minatitlán",
+                "created_at": "2024-03-15T11:05:00Z",
+                "updated_at": "2024-03-15T11:05:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE007",
+        "location_history": [
+            {
+                "lat": "19.2078",
+                "long": "-96.1356",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Boca del Río",
+                "created_at": "2024-03-15T11:06:00Z",
+                "updated_at": "2024-03-15T11:06:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE008",
+        "location_history": [
+            {
+                "lat": "18.4667",
+                "long": "-95.2000",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "San Andrés Tuxtla",
+                "created_at": "2024-03-15T11:07:00Z",
+                "updated_at": "2024-03-15T11:07:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE009",
+        "location_history": [
+            {
+                "lat": "20.9456",
+                "long": "-97.4047",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Tuxpan",
+                "created_at": "2024-03-15T11:08:00Z",
+                "updated_at": "2024-03-15T11:08:00Z"
+            }
+        ]
+    },
+    {
+        "id": "VE010",
+        "location_history": [
+            {
+                "lat": "18.8833",
+                "long": "-97.1000",
+                "country": "Mexico",
+                "state": "Veracruz",
+                "city": "Orizaba",
+                "created_at": "2024-03-15T11:09:00Z",
+                "updated_at": "2024-03-15T11:09:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU001",
+        "location_history": [
+            {
+                "lat": "19.0414",
+                "long": "-98.2063",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Puebla",
+                "created_at": "2024-03-15T11:10:00Z",
+                "updated_at": "2024-03-15T11:10:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU002",
+        "location_history": [
+            {
+                "lat": "18.9167",
+                "long": "-98.4500",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Atlixco",
+                "created_at": "2024-03-15T11:11:00Z",
+                "updated_at": "2024-03-15T11:11:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU003",
+        "location_history": [
+            {
+                "lat": "19.0667",
+                "long": "-98.2833",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "San Martín Texmelucan",
+                "created_at": "2024-03-15T11:12:00Z",
+                "updated_at": "2024-03-15T11:12:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU004",
+        "location_history": [
+            {
+                "lat": "18.4667",
+                "long": "-97.4000",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Tehuacán",
+                "created_at": "2024-03-15T11:13:00Z",
+                "updated_at": "2024-03-15T11:13:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU005",
+        "location_history": [
+            {
+                "lat": "19.7667",
+                "long": "-97.3667",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Teziutlán",
+                "created_at": "2024-03-15T11:14:00Z",
+                "updated_at": "2024-03-15T11:14:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU006",
+        "location_history": [
+            {
+                "lat": "19.0500",
+                "long": "-98.1833",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Amozoc",
+                "created_at": "2024-03-15T11:15:00Z",
+                "updated_at": "2024-03-15T11:15:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU007",
+        "location_history": [
+            {
+                "lat": "19.0333",
+                "long": "-98.2000",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "San Pedro Cholula",
+                "created_at": "2024-03-15T11:16:00Z",
+                "updated_at": "2024-03-15T11:16:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU008",
+        "location_history": [
+            {
+                "lat": "19.0500",
+                "long": "-98.3000",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "San Andrés Cholula",
+                "created_at": "2024-03-15T11:17:00Z",
+                "updated_at": "2024-03-15T11:17:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU009",
+        "location_history": [
+            {
+                "lat": "19.1333",
+                "long": "-98.4333",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Huejotzingo",
+                "created_at": "2024-03-15T11:18:00Z",
+                "updated_at": "2024-03-15T11:18:00Z"
+            }
+        ]
+    },
+    {
+        "id": "PU010",
+        "location_history": [
+            {
+                "lat": "18.9000",
+                "long": "-97.7000",
+                "country": "Mexico",
+                "state": "Puebla",
+                "city": "Tecamachalco",
+                "created_at": "2024-03-15T11:19:00Z",
+                "updated_at": "2024-03-15T11:19:00Z"
+            }
+        ]
+    }
+]

@@ -4,7 +4,7 @@ import {
   ChannelAttributes,
   EvidenceAttributes,
   CriteriaAttributes,
-  CaseAttributes,
+  CampaignAttributes,
   UserAttributes,
   CreateCaseRequest,
 } from "./swarm.types";
@@ -27,9 +27,9 @@ class Comment {
     this.attributes = args;
   }
 
-  async assess(_case: Case): Promise<Comment> {
+  async assess(campaign: Campaign): Promise<Comment> {
     try {
-      const instruction = _case.attributes.instruction.replace("{{comment.text}}", this.attributes.text);
+      const instruction = campaign.attributes.instruction.replace("{{comment.text}}", this.attributes.text);
 
       console.log({ instruction });
 
@@ -54,7 +54,7 @@ class Comment {
 
       // Expect "yes" or "no" and update the Post.criteria[] scores
       const content = result.choices[0].message.content;
-      const [winning_criteria] = _case.criteria.filter(
+      const [winning_criteria] = campaign.criteria.filter(
         (c) => c.attributes.value.toLowerCase() === content?.toLowerCase(),
       );
 
@@ -86,11 +86,11 @@ class Criteria {
   }
 }
 
-export class Case {
-  attributes: CaseAttributes;
+export class Campaign {
+  attributes: CampaignAttributes;
   criteria: Criteria[];
 
-  constructor(args: CaseAttributes) {
+  constructor(args: CampaignAttributes) {
     this.attributes = args;
     this.criteria = args.criteria.map((c) => new Criteria(c));
   }
@@ -103,11 +103,11 @@ export class Case {
     return comment;
   }
 
-  setWinningCriteria(): Case {
+  setWinningCriteria(): Campaign {
     return this;
   }
 
-  calculateTotalCriteriaScore(): Case {
+  calculateTotalCriteriaScore(): Campaign {
     try {
       const criteriaScoreMap: Record<string, { value: string; instances: string[] }> = {};
 
@@ -170,14 +170,15 @@ export class Case {
 }
 
 export class Deliberatorium {
-  createCase(): Case {
+  createCase(): Campaign {
     const body: CreateCaseRequest = {
       text: "Ethereum above $2,600 on October 4?",
-      criteria: [{ value: "yes" }, { value: "no" }],
+      criteria: [{ value: "yes", description: "" }, { value: "no", description: "" }],
     };
 
     const criteria = body.criteria.map((c) => {
       return new Criteria({
+        description: c.description,
         value: c.value,
         score: 0,
       });
@@ -190,7 +191,7 @@ export class Deliberatorium {
           raw_user_meta_data: {
             name: u.name,
           },
-          cases: [],
+          campaigns: [],
         }),
     );
 
@@ -198,9 +199,10 @@ export class Deliberatorium {
 
     const optionsText = body.criteria.map((j) => `\"${j.value}\"`).join(" or ");
 
-    const _case = new Case({
+    const campaign = new Campaign({
       id: "id",
       text: body.text,
+      category: "category",
       user_id: liberalLisa.attributes.id,
       user: liberalLisa.attributes,
       evidence: [],
@@ -256,26 +258,26 @@ Respond strictly with ${optionsText} only. Avoid adding any symbols or character
         id: "id",
         text: o.comment,
         user_id: "user_id",
-        case_id: _case.attributes.id,
+        campaign_id: campaign.attributes.id,
         user: users[i].attributes,
         channel_id: randomChannel.attributes.id,
         channel: randomChannel.attributes,
       };
     });
 
-    evidence.map((c) => _case.createComment(c));
+    evidence.map((c) => campaign.createComment(c));
 
-    return _case;
+    return campaign;
   }
 
-  async assessCase(_case: Case): Promise<Case> {
+  async assessCase(campaign: Campaign): Promise<Campaign> {
     await Promise.all(
-      _case.attributes.evidence.map(async (args) => {
+      campaign.attributes.evidence.map(async (args) => {
         const comment = new Comment(args);
-        return await comment.assess(_case);
+        return await comment.assess(campaign);
       }),
     );
 
-    return _case.calculateTotalCriteriaScore();
+    return campaign.calculateTotalCriteriaScore();
   }
 }

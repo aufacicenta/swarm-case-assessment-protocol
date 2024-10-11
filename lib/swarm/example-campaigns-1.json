@@ -1,0 +1,582 @@
+[
+    {
+        "category": "political-developments",
+        "text": "What is the current approval rating of the newly elected president in Brazil?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Audio recordings or transcripts of interviews with at least 10 São Paulo business owners, along with their signed consent forms. The interviews should specifically address their reactions to President Lula's economic policies announced last week. Each interview should include the business owner's name, type of business, and their explicit statement about their approval or disapproval of the president's policies."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies."
+            }
+        ]
+    },
+    {
+        "category": "economic-trends-and-business-news",
+        "text": "What is the impact of recent US-Korea trade tariffs on small businesses in the textile industry in Busan, South Korea?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Official employment statistics from the Busan Metropolitan Government, specifically for the textile industry, covering the past 12 months. The data should include: 1) Monthly employment figures for the textile industry in Busan, 2) Comparison of current employment levels to pre-tariff levels, 3) Official statements from the Busan Metropolitan Government or relevant trade associations about the impact of US-Korea trade tariffs on the local textile industry. All data must be dated and sourced from official government channels or recognized industry bodies."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence that does not meet the above criteria, such as unofficial statistics, data not specific to Busan's textile industry, information not covering the full 12-month period, or data not directly related to the impact of US-Korea trade tariffs."
+            }
+        ]
+    },
+    {
+        "category": "social-issues-and-human-rights",
+        "text": "What are the current living conditions for Syrian refugees in the Öncüpınar refugee camp on the Turkish-Syrian border, particularly regarding access to education and healthcare?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include all of the following: 1) A day-long video diary of a Syrian family in the Öncüpınar camp, with signed release forms. 2) A written report detailing the family's daily activities, focusing specifically on their access to education and healthcare. 3) The report should include information on school attendance for children, types of educational programs available, access to medical facilities, types of healthcare services provided, and any challenges faced in accessing these services. 4) Supplementary data on the camp's overall education and healthcare provisions from official sources (e.g., UNHCR, Turkish government reports). 5) At least three interviews with camp officials or NGO workers involved in education and healthcare provision in the camp."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks any of the following: the video diary, signed release forms, the detailed written report, focus on education and healthcare access, supplementary official data, or the required interviews. Additionally, evidence collected from refugee camps other than Öncüpınar, or focusing primarily on aspects other than education and healthcare, will be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "36.818",
+                "36.818"
+            ],
+            [
+                "36.818",
+                "36.818"
+            ]
+        ]
+    },
+    {
+        "category": "environmental-concerns-and-climate-change",
+        "text": "What has been the impact of Kenya's plastic bag ban on sea turtle nesting on Watamu Beach?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Verified data from the Kenya Wildlife Service showing sea turtle nesting numbers for the past 5 years, including pre and post-ban periods. 2) Photographic evidence of Watamu Beach conditions before and after the ban. 3) At least three expert interviews with marine biologists or conservation officers working on sea turtle protection in the area. 4) Statistical analysis comparing plastic waste levels on the beach before and after the ban implementation."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks official Kenya Wildlife Service data, doesn't cover the full 5-year period, lacks before-and-after photographic evidence, has fewer than three expert interviews, or doesn't include a statistical analysis of plastic waste levels."
+            }
+        ],
+        "map_bounds": [
+            [
+                "-3.3847",
+                "39.9866"
+            ],
+            [
+                "-3.3847",
+                "39.9866"
+            ]
+        ]
+    },
+    {
+        "category": "health-and-medical-breakthroughs",
+        "text": "What has been the public reception and initial impact of the new malaria vaccine rollout in Accra, Ghana?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Completed survey forms from 50 mothers in Accra with children under 5, detailing their experiences with the new malaria vaccine. 2) Official vaccination rate data from the Ghana Health Service for the first three months of the rollout. 3) At least five interviews with healthcare providers administering the vaccine. 4) Statistical comparison of malaria rates in vaccinated vs. unvaccinated children, if available."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be deemed invalid if it lacks the 50 completed survey forms, doesn't include official vaccination rate data, has fewer than five healthcare provider interviews, or focuses on areas outside of Accra."
+            }
+        ],
+        "map_bounds": [
+            [
+                "5.6037",
+                "-0.1870"
+            ],
+            [
+                "5.6037",
+                "-0.1870"
+            ]
+        ]
+    },
+    {
+        "category": "technology-and-innovation",
+        "text": "What is the current adoption rate and signal strength of 5G technology in rural areas within a 100km radius of Bangalore, India?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Raw data of 5G signal strength measurements from at least 10 villages within a 100km radius of Bangalore, including GPS coordinates, time of measurement, and equipment used. 2) Comparative analysis of 5G signal strength between these rural areas and Bangalore city center. 3) Survey results from at least 100 rural residents regarding their access to and usage of 5G technology. 4) Official reports or statements from at least two major telecom providers regarding their 5G rollout plans and current coverage in the area. 5) At least three expert interviews with telecommunications engineers or researchers studying rural connectivity in India."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks measurements from at least 10 villages, doesn't include a urban-rural comparison, has fewer than 100 survey responses, lacks official telecom provider reports, or has fewer than three expert interviews. Data collected from outside the specified 100km radius or focusing on technologies other than 5G will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "12.9716",
+                "77.5946"
+            ],
+            [
+                "12.9716",
+                "77.5946"
+            ]
+        ]
+    },
+    {
+        "category": "cultural-events-and-arts",
+        "text": "How are samba schools in Rio de Janeiro preparing their costumes and floats for next month's Carnival parade?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Time-lapse video footage of at least one samba school's preparation process, covering a minimum of 7 consecutive days, with signed releases from participants. 2) Detailed interviews with at least 5 key members of the samba school, including the carnavalesco (artistic director), costume designers, and float builders. 3) High-resolution photographs documenting the step-by-step creation of at least 3 major costume pieces and 1 float. 4) A breakdown of the budget allocated for costume and float creation, compared to previous years. 5) Documentation of any COVID-19 safety measures implemented during the preparation process."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks continuous time-lapse footage, has fewer than 5 key member interviews, doesn't include detailed photographic documentation of the creation process, lacks budget information, or fails to address COVID-19 safety measures. Footage or information from previous years' preparations or from schools outside of Rio de Janeiro will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "-22.9068",
+                "-43.1729"
+            ],
+            [
+                "-22.9068",
+                "-43.1729"
+            ]
+        ]
+    },
+    {
+        "category": "sports-news-and-major-competitions",
+        "text": "How is 16-year-old Kenyan runner Mercy Cherono preparing for the 3000m steeplechase Olympic trials?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Video footage of at least 5 of Mercy Cherono's training sessions, each session recorded on a different day, with a minimum total of 10 hours of footage. 2) A detailed weekly training schedule provided by her coach, including specific exercises, distances, and intensity levels. 3) An interview transcript with Mercy Cherono discussing her preparation, goals, and challenges. 4) An interview transcript with her coach detailing the training strategy and Mercy's progress. 5) Medical records or statements from a sports physician regarding Mercy's physical condition and any specific health considerations for her age group in this event. 6) Comparative data of Mercy's current performance metrics against the Olympic qualifying standards."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks sufficient video footage of training sessions, doesn't include a detailed training schedule, lacks interviews with both Mercy and her coach, doesn't address health considerations for young athletes, or fails to provide performance comparisons with Olympic standards. Information about other athletes or events not directly related to Mercy Cherono's 3000m steeplechase preparation will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "-1.2921",
+                "36.8219"
+            ],
+            [
+                "-1.2921",
+                "36.8219"
+            ]
+        ]
+    },
+    {
+        "category": "education-and-academic-research",
+        "text": "What has been the impact of remote learning on student performance in 20 public schools in Mexico City?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official test score records from 20 public schools in Mexico City, covering periods before and after remote learning implementation. The data should span at least two academic years. 2) Attendance records for both in-person and remote classes. 3) Surveys of at least 500 students across the 20 schools, addressing their experiences with remote learning. 4) Interviews with at least 40 teachers (two from each school) discussing the challenges and benefits of remote learning. 5) Reports from school administrators on technological infrastructure and support provided for remote learning. 6) Comparative analysis of performance across different subjects and grade levels. 7) Data on the socioeconomic background of students to assess any correlation with remote learning performance."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it covers fewer than 20 schools, lacks pre- and post-remote learning data, has insufficient survey responses or teacher interviews, doesn't include information on technological infrastructure, or fails to provide a comparative analysis across subjects and grades. Data from private schools or areas outside Mexico City will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "19.4326",
+                "-99.1332"
+            ],
+            [
+                "19.4326",
+                "-99.1332"
+            ]
+        ]
+    },
+    {
+        "category": "crime-and-law-enforcement",
+        "text": "What has been the effectiveness of recent efforts to combat drug trafficking at the Port of Cartagena, Colombia?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official port authority records of drug seizures at Cartagena for the past 12 months, compared with data from the previous 12-month period. 2) Detailed breakdown of types and quantities of drugs seized. 3) On-the-record interviews with at least 5 senior law enforcement officials involved in anti-drug operations at the port. 4) Documentation of new technologies or strategies implemented to detect and prevent drug trafficking, including their cost and perceived effectiveness. 5) Statistical analysis of successful prosecutions resulting from seizures at the port. 6) Comparative data on drug trafficking trends at other major Colombian ports. 7) Reports on international cooperation efforts in combating drug trafficking at the port."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks official seizure records, doesn't provide a year-on-year comparison, has fewer than 5 law enforcement interviews, lacks information on new anti-trafficking measures, doesn't include prosecution data, or fails to provide context with other ports. Information on general crime in Cartagena not specifically related to drug trafficking at the port will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "10.3910",
+                "-75.4794"
+            ],
+            [
+                "10.3910",
+                "-75.4794"
+            ]
+        ]
+    },
+    {
+        "category": "natural-disasters-and-emergency-responses",
+        "text": "What is the current state of recovery efforts six months after the earthquake in Port-au-Prince, Haiti?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Photographs of current living conditions for at least 30 families in Port-au-Prince, with signed consent forms and GPS coordinates for each location. 2) Detailed interview transcripts from these 30 families, discussing their current situation, received aid, and ongoing challenges. 3) Official reports from at least three major aid organizations (e.g., Red Cross, UN agencies) detailing their recovery efforts, funds allocated, and progress made. 4) Before-and-after satellite imagery of affected areas in Port-au-Prince, showing reconstruction progress. 5) Statistical data on housing reconstruction, access to clean water, and restoration of essential services. 6) Interviews with at least five local government officials responsible for disaster recovery. 7) Comparative analysis of the current recovery state with established disaster recovery benchmarks."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it covers fewer than 30 families, lacks signed consent forms, doesn't include official aid organization reports, lacks before-and-after imagery, has insufficient statistical data on reconstruction and essential services, or has fewer than five local government official interviews. Information about areas outside Port-au-Prince or natural disasters other than the earthquake in question will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "18.5944",
+                "-72.3074"
+            ],
+            [
+                "18.5944",
+                "-72.3074"
+            ]
+        ]
+    },
+    {
+        "category": "infrastructure-and-urban-development",
+        "text": "What is the current progress of the Lagos-Ibadan railway project, part of China's Belt and Road Initiative in Nigeria?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official progress reports from the Nigerian Railway Corporation, covering the last 6 months of construction. 2) High-resolution photographs and video footage of at least 10 different stages of the railway construction, with timestamps and GPS coordinates. 3) Interviews with at least 3 senior project managers and 5 local workers involved in the construction. 4) Detailed breakdown of the project budget, including spent and remaining funds. 5) Environmental impact assessments for the project. 6) Comparative analysis of the project timeline, contrasting initial projections with current progress. 7) Official statements from both Nigerian and Chinese government representatives regarding the project's progress and significance. 8) Survey results from at least 200 local residents along the railway route, gauging their opinions on the project."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks official progress reports, has insufficient photographic/video documentation, fewer than the specified number of interviews, lacks budget information, doesn't include environmental assessments, lacks government statements, or has fewer than 200 local resident survey responses. Information about other infrastructure projects not directly related to the Lagos-Ibadan railway will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "6.5244",
+                "3.3792"
+            ],
+            [
+                "7.3775",
+                "3.8960"
+            ]
+        ]
+    },
+    {
+        "category": "agriculture-and-food-security",
+        "text": "How has climate change affected coffee production in the Sidamo region of Ethiopia over the past decade?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Verifiable harvest yield data from at least 50 coffee farms in Sidamo, comparing current harvests to those from 10 years ago. This data should be certified by local agricultural authorities. 2) Climate data for the Sidamo region over the past 10 years, including temperature and rainfall patterns. 3) Interviews with at least 20 coffee farmers, discussing observed changes in growing conditions and adaptation strategies. 4) Soil analysis reports from at least 10 different locations in the region, comparing current soil conditions to historical data. 5) Economic data showing how changes in coffee production have impacted local and national economies. 6) Reports from agricultural research institutions on coffee plant resilience and adaptation to changing climate conditions in Ethiopia. 7) Satellite imagery showing changes in land use and vegetation cover in the Sidamo region over the past decade."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it covers fewer than 50 farms, lacks long-term climate data, has fewer than 20 farmer interviews, doesn't include soil analysis, lacks economic impact data, or doesn't provide research on coffee plant adaptation. Information about coffee production in regions other than Sidamo or about crops other than coffee will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "6.7282",
+                "38.3065"
+            ],
+            [
+                "6.7282",
+                "38.3065"
+            ]
+        ]
+    },
+    {
+        "category": "energy-and-resource-management",
+        "text": "What is the current percentage of renewable energy usage in 5 major automobile manufacturers in Bavaria, Germany?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official energy consumption reports from 5 major automobile manufacturers in Bavaria, specifying renewable energy usage percentages. These reports should cover the last 12 months. 2) Breakdown of renewable energy sources (e.g., solar, wind, hydroelectric) used by each manufacturer. 3) Interviews with sustainability officers or equivalent from each of the 5 companies, discussing their renewable energy strategies and future plans. 4) Comparative analysis of renewable energy usage in these companies over the past 5 years, showing trends and progress. 5) Documentation of investments made in renewable energy infrastructure by these companies. 6) Energy efficiency metrics for main production facilities of each manufacturer. 7) Official statements or reports from the Bavarian government regarding renewable energy targets for the industrial sector."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it covers fewer than 5 major automobile manufacturers, lacks official energy consumption reports, doesn't provide a breakdown of renewable energy sources, has insufficient interviews with company representatives, lacks historical comparison data, or doesn't include government renewable energy targets. Information about non-automotive industries or regions outside Bavaria will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "47.2740",
+                "10.1715"
+            ],
+            [
+                "50.5644",
+                "13.8399"
+            ]
+        ]
+    },
+    {
+        "category": "transportation-and-logistics",
+        "text": "What has been the impact of the OV-fiets bike-sharing program on commuting habits in Amsterdam?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Raw data and completed questionnaires from at least 200 Amsterdam residents surveyed about their commuting habits before and after the introduction of OV-fiets. 2) Usage statistics of OV-fiets bikes over the past 12 months, including number of rides, average duration, and most popular routes. 3) Comparative analysis of public transport usage before and after OV-fiets implementation. 4) Traffic congestion data for Amsterdam's city center over the past 2 years. 5) Interviews with at least 20 regular OV-fiets users discussing how the program has changed their commute. 6) Environmental impact assessment of the bike-sharing program, including estimated reduction in carbon emissions. 7) Economic analysis of the program's impact on local businesses near popular OV-fiets stations. 8) Official reports from Amsterdam's transportation department on the integration of OV-fiets with other public transport systems."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it surveys fewer than 200 residents, lacks OV-fiets usage statistics, doesn't include comparative analysis with other transport modes, has insufficient user interviews, lacks environmental and economic impact assessments, or doesn't include official city reports. Information about bike-sharing programs in cities other than Amsterdam will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "52.3676",
+                "4.9041"
+            ],
+            [
+                "52.3676",
+                "4.9041"
+            ]
+        ]
+    },
+    {
+        "category": "military-and-defense-news",
+        "text": "What is the current status of the F-16 fighter jet acquisition and setup at Clark Air Base in the Philippines?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official documents from the Philippine Air Force or Department of National Defense detailing the F-16 acquisition process and timeline. 2) Photographs and video footage of F-16 jets' arrival and setup at Clark Air Base, with timestamps and verification from military sources. 3) Interviews with at least 3 high-ranking Philippine Air Force officials involved in the F-16 program. 4) Detailed inventory of F-16 jets received, including their specifications and operational status. 5) Reports on infrastructure improvements at Clark Air Base to accommodate the new jets. 6) Training schedules and progress reports for Philippine pilots and maintenance crews for F-16 operations. 7) Official statements from both Philippine and US governments regarding the strategic importance of this acquisition. 8) Budget allocation and expenditure reports related to the F-16 program."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks official military documents, doesn't include verifiable visual documentation of the jets at Clark Air Base, has fewer than 3 high-ranking official interviews, lacks detailed inventory information, doesn't cover infrastructure improvements and training programs, or lacks official government statements. Information about military acquisitions not related to F-16 jets or bases other than Clark Air Base will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "15.1897",
+                "120.5486"
+            ],
+            [
+                "15.1897",
+                "120.5486"
+            ]
+        ]
+    },
+    {
+        "category": "diplomatic-relations-and-international-agreements",
+        "text": "What were the outcomes of the recent EU-UK Joint Committee meeting in Brussels regarding Northern Ireland trade regulations?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official minutes or transcript of the EU-UK Joint Committee meeting, authenticated by both EU and UK officials. 2) On-the-record quotes from at least 3 attendees representing different stakeholders (e.g., EU representative, UK representative, Northern Ireland representative). 3) Detailed breakdown of any new agreements or modifications to existing trade regulations for Northern Ireland. 4) Analysis of the potential economic impact of these outcomes on Northern Ireland, the UK, and the EU, prepared by a reputable economic think tank. 5) Official statements from both the EU Commission and UK government regarding the meeting outcomes. 6) Reactions from at least 5 major business associations in Northern Ireland to the new regulations. 7) Timeline for implementation of any new agreements or changes. 8) Comparative analysis of these outcomes with previous Northern Ireland trade regulations under the Brexit agreement."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks official meeting minutes or transcript, has fewer than 3 on-the-record quotes from key attendees, doesn't provide a detailed breakdown of new agreements or modifications, lacks economic impact analysis, doesn't include official EU and UK statements, has insufficient business community reactions, or lacks implementation timeline. Speculative reports or information about EU-UK relations not directly related to this specific Joint Committee meeting will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "50.8503",
+                "4.3517"
+            ],
+            [
+                "50.8503",
+                "4.3517"
+            ]
+        ]
+    },
+    {
+        "category": "religious-events-and-conflicts",
+        "text": "How are pilgrims from Rajasthan preparing for and participating in this year's Kumbh Mela festival in Haridwar?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) A detailed photo essay and daily journal entries documenting at least one Rajasthani family's journey to and participation in the Kumbh Mela, spanning from preparation to return. 2) Interviews with at least 20 pilgrims from different parts of Rajasthan, discussing their motivations, preparations, and experiences. 3) Official data from Rajasthan and Uttarakhand state governments on the number of pilgrims traveling from Rajasthan to Haridwar for the festival. 4) Documentation of special arrangements made for Rajasthani pilgrims, including transportation, accommodation, and health services. 5) Analysis of economic impact on both Rajasthan (as pilgrims leave) and Haridwar (as pilgrims arrive). 6) Interviews with at least 5 religious leaders from Rajasthan about the significance of this year's Kumbh Mela. 7) Comparative data on Rajasthani participation in previous Kumbh Mela festivals. 8) Documentation of any unique cultural exchanges between Rajasthani pilgrims and other participants at the festival."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks a comprehensive documentation of a Rajasthani family's pilgrimage, has fewer than 20 pilgrim interviews, doesn't include official government data, lacks information on special arrangements for pilgrims, doesn't provide economic impact analysis, has fewer than 5 religious leader interviews, or lacks historical comparison data. Information about pilgrims from states other than Rajasthan or about religious festivals other than Kumbh Mela will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "29.9457",
+                "78.1642"
+            ],
+            [
+                "29.9457",
+                "78.1642"
+            ]
+        ]
+    },
+    {
+        "category": "migration-and-refugee-situations",
+        "text": "What are the current experiences of Venezuelan migrants settling in Cúcuta, Colombia, particularly regarding job prospects and integration?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Signed interview transcripts and demographic information from at least 25 Venezuelan migrants who have settled in Cúcuta within the last 12 months. 2) Official statistics from Colombian migration authorities on the number of Venezuelan migrants in Cúcuta, including trends over the past 3 years. 3) Data on employment rates and types of jobs obtained by Venezuelan migrants in Cúcuta, sourced from local labor authorities or reputable NGOs. 4) Interviews with at least 10 local Colombian employers in Cúcuta about their experiences hiring Venezuelan migrants. 5) Reports from at least 3 NGOs or international organizations working on migrant integration in Cúcuta. 6) Documentation of any government or NGO-led programs aimed at facilitating Venezuelan migrant integration in Cúcuta. 7) Analysis of the impact of Venezuelan migration on Cúcuta's local economy and social services. 8) Comparative data on the integration experiences of Venezuelan migrants in Cúcuta versus other Colombian border cities."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it includes fewer than 25 migrant interviews, lacks official migration statistics, doesn't provide employment data, has fewer than 10 local employer interviews, lacks reports from NGOs or international organizations, doesn't document integration programs, lacks economic and social impact analysis, or doesn't include comparative data with other cities. Information about non-Venezuelan migrants or cities other than Cúcuta will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "7.8939",
+                "-72.5078"
+            ],
+            [
+                "7.8939",
+                "-72.5078"
+            ]
+        ]
+    },
+    {
+        "category": "labor-issues-and-workers-rights",
+        "text": "What are the current working conditions in garment factories in Dhaka, Bangladesh, and how have they changed since the Rana Plaza disaster?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) A detailed written report of observations from at least 5 different garment factories in Dhaka, accompanied by time-stamped photographs (with appropriate permissions). Each factory visit should last at least one full working day. 2) Interviews with at least 50 garment workers from different factories, covering topics such as working hours, wages, safety measures, and overall working conditions. 3) Official reports from the Bangladesh Garment Manufacturers and Exporters Association (BGMEA) on industry standards and compliance. 4) Data on workplace accidents and safety violations in Dhaka's garment factories over the past 5 years, compared to pre-Rana Plaza data. 5) Interviews with at least 10 factory owners or senior managers about implemented changes and challenges. 6) Reports from at least 3 international labor rights organizations on the current state of Bangladesh's garment industry. 7) Documentation of any new labor laws or regulations implemented since the Rana Plaza disaster. 8) Economic data showing how changes in working conditions have impacted factory productivity and export volumes."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it covers fewer than 5 factories, lacks full-day observations, has fewer than 50 worker interviews, doesn't include official BGMEA reports, lacks comparative safety data, has fewer than 10 factory owner/manager interviews, doesn't include reports from international organizations, lacks information on regulatory changes, or doesn't provide economic impact data. Information about non-garment industries or cities other than Dhaka will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "23.8103",
+                "90.4125"
+            ],
+            [
+                "23.8103",
+                "90.4125"
+            ]
+        ]
+    },
+    {
+        "category": "tourism-and-travel-industry-developments",
+        "text": "How has tourism in Bali, Indonesia recovered post-pandemic, and what new trends have emerged?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Official tourism statistics from the Bali Tourism Board or Indonesian Ministry of Tourism, showing visitor numbers and revenue for the past 3 years, including pre-pandemic, pandemic, and post-pandemic periods. 2) Daily visitor logs and financial transaction records from at least 10 popular tourist destinations in Bali over a two-week period, certified by local tourism authorities. 3) Interviews with at least 30 tourists from various countries about their reasons for choosing Bali and their experiences. 4) Surveys of at least 50 local businesses in the tourism sector (hotels, restaurants, tour operators) about their recovery and adaptation strategies. 5) Data on hotel occupancy rates and average daily rates across different types of accommodations. 6) Analysis of changes in tourist demographics and preferences compared to pre-pandemic data. 7) Reports on new tourism initiatives or attractions developed in response to the pandemic. 8) Environmental impact assessment of tourism recovery on Bali's ecosystems."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks official tourism statistics, has data from fewer than 10 tourist destinations, includes fewer than 30 tourist interviews, surveys fewer than 50 local businesses, lacks hotel occupancy data, doesn't provide analysis of changing tourist preferences, lacks information on new tourism initiatives, or doesn't include environmental impact assessment. Information about tourism recovery in destinations other than Bali will also be deemed invalid."
+            }
+        ],
+        "map_bounds": [
+            [
+                "-8.3405",
+                "115.0920"
+            ],
+            [
+                "-8.3405",
+                "115.0920"
+            ]
+        ]
+    },
+    {
+        "category": "fashion-and-lifestyle-trends",
+        "text": "How are African designers influencing global fashion trends, particularly in major fashion capitals like Milan?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Video interviews with at least 5 up-and-coming designers from different African countries showcasing at Milan Fashion Week, discussing their inspirations, challenges, and impact. 2) Photographic documentation of at least 20 African-inspired designs featured in Milan Fashion Week shows over the past year. 3) Sales data for African-designed or African-inspired pieces from at least 5 major fashion retailers in Milan. 4) Interviews with at least 10 fashion critics or editors from major fashion publications about the influence of African design on global trends. 5) Social media analysis showing the popularity and reach of African fashion trends, including data on hashtags, mentions, and engagement rates. 6) Reports from fashion trend forecasting agencies on the incorporation of African design elements in global fashion. 7) Data on the number of African designers participating in major fashion weeks globally over the past 5 years, showing any trends. 8) Analysis of how African fashion influences are impacting fabric sourcing and production methods in the global fashion industry."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it includes fewer than 5 designer interviews, lacks photographic documentation of African-inspired designs, doesn't provide sales data, has fewer than 10 fashion critic/editor interviews, lacks social media trend analysis, doesn't include trend forecasting reports, lacks data on African designer participation in global fashion weeks, or doesn't analyze impact on production methods. Information about non-African designers or fashion weeks outside of Milan will also be deemed invalid unless directly comparative."
+            }
+        ],
+        "map_bounds": [
+            [
+                "45.4642",
+                "9.1900"
+            ],
+            [
+                "45.4642",
+                "9.1900"
+            ]
+        ]
+    },
+    {
+        "category": "entertainment-industry-news",
+        "text": "How is actress Alia Bhatt's latest Bollywood film production process reflecting changes in the Indian film industry?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) A detailed production schedule and on-set footage of Alia Bhatt's latest film, covering at least 5 full days of shooting. 2) Interviews with Alia Bhatt, the film's director, and at least 3 other key crew members about new production techniques or technologies being used. 3) Comparative analysis of the film's budget, shooting schedule, and production methods with those of Bhatt's films from 5 years ago. 4) Documentation of any COVID-19 safety protocols implemented on set. 5) Information on the film's distribution strategy, including any plans for simultaneous theatrical and streaming releases. 6) Data on the gender balance and diversity of the film's cast and crew compared to industry averages. 7) Reports on any sustainable or eco-friendly practices being implemented in the production. 8) Analysis of how the film's marketing strategy differs from traditional Bollywood approaches."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks a detailed production schedule, has fewer than 5 days of on-set documentation, doesn't include interviews with key personnel, lacks comparative analysis with past productions, doesn't address COVID-19 protocols, lacks information on distribution strategy, doesn't provide data on cast/crew diversity, or lacks analysis of marketing strategies. Information about films not involving Alia Bhatt or non-Bollywood productions will also be deemed invalid unless directly comparative."
+            }
+        ],
+        "map_bounds": [
+            [
+                "19.0760",
+                "72.8777"
+            ],
+            [
+                "19.0760",
+                "72.8777"
+            ]
+        ]
+    },
+    {
+        "category": "scientific-discoveries-and-space-exploration",
+        "text": "What are the latest breakthroughs in quantum computing at research institutions in China, particularly at the University of Science and Technology of China in Hefei?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Detailed documentation of at least one specific quantum computing experiment at the University of Science and Technology of China (USTC) in Hefei, including experimental setup, methodology, and results. 2) Interviews with at least 3 lead researchers involved in quantum computing projects at USTC. 3) Copies of peer-reviewed papers published by USTC researchers on quantum computing breakthroughs within the last 12 months. 4) Comparative analysis of USTC's quantum computing capabilities with those of other leading institutions globally. 5) Information on funding sources and amounts for quantum computing research at USTC. 6) Documentation of any patents filed by USTC researchers related to quantum computing in the past year. 7) Reports on collaborations between USTC and industry partners in developing quantum computing technologies. 8) Analysis of the potential real-world applications of USTC's latest quantum computing breakthroughs."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks detailed documentation of a specific experiment, has fewer than 3 researcher interviews, doesn't include recent peer-reviewed publications, lacks comparative analysis with other institutions, doesn't provide funding information, lacks patent documentation, doesn't address industry collaborations, or lacks analysis of potential applications. Information about non-quantum computing research or institutions other than USTC will also be deemed invalid unless directly comparative."
+            }
+        ],
+        "map_bounds": [
+            [
+                "31.8428",
+                "117.2355"
+            ],
+            [
+                "31.8428",
+                "117.2355"
+            ]
+        ]
+    },
+    {
+        "category": "historical-findings-and-archaeological-discoveries",
+        "text": "What new structures have been uncovered in the latest excavation at Göbekli Tepe, Turkey, and how do they contribute to our understanding of Neolithic societies?",
+        "criteria": [
+            {
+                "value": "valid",
+                "description": "Evidence must include: 1) Detailed excavation logs from the site, signed and dated by the lead archaeologist, covering at least the past 6 months of work. 2) High-resolution photographs and 3D scans of newly discovered structures at Göbekli Tepe, with scale markers and precise location data. 3) Transcripts of interviews with at least 3 lead archaeologists working on the site, discussing the significance of the new findings. 4) Preliminary analysis reports comparing the new structures to previously known structures at Göbekli Tepe and other Neolithic sites. 5) Results of any dating techniques applied to the new structures or associated artifacts. 6) Documentation of any unique symbols, carvings, or artifacts found in association with the new structures. 7) Analysis of how the new discoveries change or reinforce existing theories about Neolithic societies. 8) Information on conservation efforts for the newly uncovered structures."
+            },
+            {
+                "value": "invalid",
+                "description": "Evidence will be considered invalid if it lacks detailed excavation logs, doesn't include high-quality visual documentation of new structures, has fewer than 3 archaeologist interviews, lacks comparative analysis with existing knowledge, doesn't include dating information, lacks documentation of associated artifacts or symbols, doesn't address implications for understanding Neolithic societies, or lacks information on conservation efforts. Information about archaeological sites other than Göbekli Tepe will also be deemed invalid unless directly comparative."
+            }
+        ],
+        "map_bounds": [
+            [
+                "37.2231",
+                "38.9222"
+            ],
+            [
+                "37.2231",
+                "38.9222"
+            ]
+        ]
+    }
+]
