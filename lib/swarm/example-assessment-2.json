@@ -1,0 +1,282 @@
+{
+    "id": "id",
+    "text": "Ethereum above $2,600 on October 4?",
+    "category": "category",
+    "user_id": "user_id",
+    "user": {
+        "id": "user_id",
+        "raw_user_meta_data": {
+            "name": "Liberal Lisa"
+        },
+        "campaigns": []
+    },
+    "evidence": [
+        {
+            "id": "id",
+            "text": "I'm hopeful about the future of decentralized finance, but predicting specific market prices feels like a gamble. So, I'll cautiously say yes, as the trend often points upward.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Liberal Lisa"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Twitter",
+                "slug": "@agivenpost"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "While the volatility of crypto markets is tough to predict, Ethereum might surpass $2,600 if recent trends and market sentiments continue positively. So, yes, but with cautious optimism.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Moderate Mike"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Twitter",
+                "slug": "@agivenpost"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "Given the unpredictable nature of cryptocurrency, it's difficult to say. I'll err on the side of caution and say no.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Conservative Cathy"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "no",
+                "score": 0.2
+            }
+        },
+        {
+            "id": "id",
+            "text": "I believe in Ethereum's potential for financial independence, so I'm inclined to say yes.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Libertarian Liam"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "Considering the innovations in blockchain technology that Ethereum supports, yes, I see it being above $2,600.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Progressive Priya"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "Cryptocurrency markets have always been too volatile for my taste. I would lean towards no.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Traditional Tim"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Instagram",
+                "slug": "@agivenpost"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "no",
+                "score": 0.2
+            }
+        },
+        {
+            "id": "id",
+            "text": "I see possible scenarios for both yes and no. However, considering recent market performance, I'll say yes.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Centrist Chris"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "I'm more focused on how cryptocurrency's energy consumption impacts our planet. Market price isn't my priority, but I hope any increase promotes Ethereum's greener alternatives. So, yes.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Environmental Emma"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "Cryptocurrencies are a way to empower individuals outside traditional financial systems. Yes, I think Ethereum could be above $2,600.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Populist Paul"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Instagram",
+                "slug": "@agivenpost"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        },
+        {
+            "id": "id",
+            "text": "Given Ethereum's developments and increasing interest in tech-driven solutions, I would say yes, I expect it to be above $2,600.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Tech-savvy Taylor"
+                },
+                "campaigns": []
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Reddit",
+                "slug": "r/swarmnetwork"
+            },
+            "winning_criteria": {
+                "description": "",
+                "value": "yes",
+                "score": 0.8
+            }
+        }
+    ],
+    "map_bounds": [],
+    "criteria": [
+        {
+            "description": "",
+            "value": "yes",
+            "score": 0.8
+        },
+        {
+            "description": "",
+            "value": "no",
+            "score": 0.2
+        }
+    ],
+    "instruction": "For the given question: Ethereum above $2,600 on October 4?\n\nDetermine if \"{{comment.text}}\" leans more towards \"yes\" or \"no\".\n\nRespond strictly with \"yes\" or \"no\" only. Avoid adding any symbols or characters rather than literraly \"yes\" or \"no\".",
+    "starts_at": 1728674605348,
+    "ends_at": 1728674605349,
+    "judging_models": [
+        {
+            "provider": "openai",
+            "version": "gpt-o1"
+        }
+    ],
+    "winning_criteria": {
+        "description": "",
+        "value": "yes",
+        "score": 0.8
+    }
+}

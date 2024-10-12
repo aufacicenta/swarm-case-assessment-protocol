@@ -6,30 +6,41 @@ import {
   CriteriaAttributes,
   CampaignAttributes,
   UserAttributes,
-  CreateCaseRequest,
+  CreateCampaignRequest,
+  WitnessAttributes,
 } from "./swarm.types";
 
 import userPersonas from "./user-personas.json";
-import exampleOpinions1 from "./example-opinion-1.json";
+import { sample } from "lodash";
 
-class User {
-  attributes: UserAttributes;
+export class Witness {
+  attributes: WitnessAttributes;
 
-  constructor(args: UserAttributes) {
+  constructor(args: WitnessAttributes) {
     this.attributes = args;
   }
 }
 
-class Comment {
+export class User {
+  attributes: UserAttributes;
+  name: UserAttributes["raw_user_meta_data"]["name"];
+
+  constructor(args: UserAttributes) {
+    this.attributes = args;
+    this.name = args.raw_user_meta_data.name;
+  }
+}
+
+export class Evidence {
   attributes: EvidenceAttributes;
 
   constructor(args: EvidenceAttributes) {
     this.attributes = args;
   }
 
-  async assess(campaign: Campaign): Promise<Comment> {
+  async assess(campaign: Campaign): Promise<Evidence> {
     try {
-      const instruction = campaign.attributes.instruction.replace("{{comment.text}}", this.attributes.text);
+      const instruction = campaign.attributes.instruction.replace("{{evidence.text}}", this.attributes.text);
 
       console.log({ instruction });
 
@@ -52,8 +63,9 @@ class Comment {
 
       // console.log(result);
 
-      // Expect "yes" or "no" and update the Post.criteria[] scores
+      // Expect "yes" or "no" and update the Campaign.criteria[] scores
       const content = result.choices[0].message.content;
+
       const [winning_criteria] = campaign.criteria.filter(
         (c) => c.attributes.value.toLowerCase() === content?.toLowerCase(),
       );
@@ -68,9 +80,48 @@ class Comment {
 
     return this;
   }
+
+  static async _generateText(campaign: Campaign): Promise<string | undefined> {
+    try {
+      const criteria = sample(campaign.attributes.criteria);
+
+      const instruction = `Create an example evidence report for the following: "${campaign.attributes.text}".
+The evidence report should meet this criteria: ${criteria?.description} and should render as ${criteria?.value}.`;
+
+      console.log({ instruction });
+
+      // Call the AI Model with the instruction and this comment interpolated
+      const result = await openai.client.chat.completions.create({
+        model: "gpt-4o",
+        n: 1,
+        max_tokens: 1000,
+        messages: [
+          {
+            role: "user",
+            content: [
+              {
+                type: "text",
+                text: instruction,
+              },
+            ],
+          },
+        ],
+      });
+
+      console.log(result);
+
+      const content = result.choices[0].message.content;
+
+      return content!;
+    } catch (error) {
+      console.error(error);
+    }
+
+    return undefined;
+  }
 }
 
-class Channel {
+export class Channel {
   attributes: ChannelAttributes;
 
   constructor(args: ChannelAttributes) {
@@ -78,7 +129,7 @@ class Channel {
   }
 }
 
-class Criteria {
+export class Criteria {
   attributes: CriteriaAttributes;
 
   constructor(args: CriteriaAttributes) {
@@ -92,13 +143,18 @@ export class Campaign {
 
   constructor(args: CampaignAttributes) {
     this.attributes = args;
+
+    if (!args.evidence) {
+      this.attributes.evidence = [];
+    }
+
     this.criteria = args.criteria.map((c) => new Criteria(c));
   }
 
-  createComment(args: EvidenceAttributes): Comment {
-    const comment = new Comment(args);
+  appendEvidence(args: EvidenceAttributes): Evidence {
+    const comment = new Evidence(args);
 
-    this.attributes.evidence.push(comment.attributes);
+    this.attributes.evidence!.push(comment.attributes);
 
     return comment;
   }
@@ -115,14 +171,14 @@ export class Campaign {
         criteriaScoreMap[criteria.value] = { value: criteria.value, instances: [] };
       }
 
-      for (const comment of this.attributes.evidence) {
+      for (const comment of this.attributes.evidence!) {
         if (comment.winning_criteria) {
           const value = comment.winning_criteria.value.toLowerCase();
           criteriaScoreMap[value].instances.push(value);
         }
       }
 
-      const totalComments = this.attributes.evidence.filter((c) => !!c.winning_criteria).length;
+      const totalComments = this.attributes.evidence!.filter((c) => !!c.winning_criteria).length;
 
       const updatedCriteria: CriteriaAttributes[] = [];
       for (const criteria of this.attributes.criteria) {
@@ -136,7 +192,7 @@ export class Campaign {
 
       const updatedComments: EvidenceAttributes[] = [];
 
-      for (const comment of this.attributes.evidence) {
+      for (const comment of this.attributes.evidence!) {
         if (comment.winning_criteria) {
           const updatedCriteria = this.attributes.criteria.find(
             (c) => c.value.toLowerCase() === comment.winning_criteria!.value.toLowerCase(),
@@ -170,12 +226,7 @@ export class Campaign {
 }
 
 export class Deliberatorium {
-  createCase(): Campaign {
-    const body: CreateCaseRequest = {
-      text: "Ethereum above $2,600 on October 4?",
-      criteria: [{ value: "yes", description: "" }, { value: "no", description: "" }],
-    };
-
+  createCampaign(body: CreateCampaignRequest): Campaign {
     const criteria = body.criteria.map((c) => {
       return new Criteria({
         description: c.description,
@@ -202,7 +253,7 @@ export class Deliberatorium {
     const campaign = new Campaign({
       id: "id",
       text: body.text,
-      category: "category",
+      category: body.category,
       user_id: liberalLisa.attributes.id,
       user: liberalLisa.attributes,
       evidence: [],
@@ -211,7 +262,7 @@ export class Deliberatorium {
       criteria: criteria.map((c: Criteria) => c.attributes),
 
       instruction: `For the given question: ${body.text}\n
-Determine if "{{comment.text}}" leans more towards ${optionsText}.\n
+Determine if "{{evidence.text}}" leans more towards ${optionsText}.\n
 Respond strictly with ${optionsText} only. Avoid adding any symbols or characters rather than literraly ${optionsText}.`,
 
       starts_at: new Date().getTime(),
@@ -225,55 +276,19 @@ Respond strictly with ${optionsText} only. Avoid adding any symbols or character
       ],
     });
 
-    const channel1 = new Channel({
-      id: "id",
-      name: "Reddit",
-      slug: "r/swarmnetwork",
-    });
+    return campaign;
+  }
 
-    const channel2 = new Channel({
-      id: "id",
-      name: "Telegram",
-      slug: "@agivengroup",
-    });
-
-    const channel3 = new Channel({
-      id: "id",
-      name: "Instagram",
-      slug: "@agivenpost",
-    });
-
-    const channel4 = new Channel({
-      id: "id",
-      name: "Twitter",
-      slug: "@agivenpost",
-    });
-
-    const channels = [channel1, channel2, channel3, channel4];
-
-    const evidence: EvidenceAttributes[] = exampleOpinions1.map((o, i) => {
-      const randomChannel = channels[Math.floor(Math.random() * channels.length)];
-
-      return {
-        id: "id",
-        text: o.comment,
-        user_id: "user_id",
-        campaign_id: campaign.attributes.id,
-        user: users[i].attributes,
-        channel_id: randomChannel.attributes.id,
-        channel: randomChannel.attributes,
-      };
-    });
-
-    evidence.map((c) => campaign.createComment(c));
+  async appendEvidence(campaign: Campaign, source: EvidenceAttributes[]): Promise<Campaign> {
+    source.map((c) => campaign.appendEvidence(c));
 
     return campaign;
   }
 
-  async assessCase(campaign: Campaign): Promise<Campaign> {
+  async assessCampaign(campaign: Campaign): Promise<Campaign> {
     await Promise.all(
-      campaign.attributes.evidence.map(async (args) => {
-        const comment = new Comment(args);
+      campaign.attributes.evidence!.map(async (args) => {
+        const comment = new Evidence(args);
         return await comment.assess(campaign);
       }),
     );

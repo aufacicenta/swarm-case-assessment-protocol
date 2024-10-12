@@ -1,0 +1,36 @@
+{
+    "id": "id",
+    "text": "What is the current approval rating of the newly elected president in Brazil?",
+    "category": "political-developments",
+    "user_id": "user_id",
+    "user": {
+        "id": "user_id",
+        "raw_user_meta_data": {
+            "name": "Liberal Lisa"
+        },
+        "campaigns": []
+    },
+    "evidence": [],
+    "map_bounds": [],
+    "criteria": [
+        {
+            "description": "Audio recordings or transcripts of interviews with at least 10 São Paulo business owners, along with their signed consent forms. The interviews should specifically address their reactions to President Lula's economic policies announced last week. Each interview should include the business owner's name, type of business, and their explicit statement about their approval or disapproval of the president's policies.",
+            "value": "valid",
+            "score": 0
+        },
+        {
+            "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies.",
+            "value": "invalid",
+            "score": 0
+        }
+    ],
+    "instruction": "For the given question: What is the current approval rating of the newly elected president in Brazil?\n\nDetermine if \"{{evidence.text}}\" leans more towards \"valid\" or \"invalid\".\n\nRespond strictly with \"valid\" or \"invalid\" only. Avoid adding any symbols or characters rather than literraly \"valid\" or \"invalid\".",
+    "starts_at": 1728678716043,
+    "ends_at": 1728678716043,
+    "judging_models": [
+        {
+            "provider": "openai",
+            "version": "gpt-o1"
+        }
+    ]
+}

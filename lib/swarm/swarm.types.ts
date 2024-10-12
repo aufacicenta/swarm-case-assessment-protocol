@@ -8,6 +8,8 @@ export type UserAttributes = {
 
 export type WitnessAttributes = {
   id: string;
+  user_id: string;
+  user: UserAttributes;
   location_history: WitnessLocationAttributes[];
 };
 
@@ -45,6 +47,11 @@ export type TransactionAttributes = {
   updated_at: string;
 };
 
+export type CampaignMapBoundariesAttributes = {
+  id: string;
+  coordinates: number[][];
+};
+
 /**
  * Could also be "Campaign" or "Quest"
  */
@@ -68,31 +75,31 @@ export type CampaignAttributes = {
   /**
    * Category
    * eg.
-    * 1. Political developments
-    * 2. Economic trends and business news
-    * 3. Social issues and human rights
-    * 4. Environmental concerns and climate change
-    * 5. Health and medical breakthroughs
-    * 6. Technology and innovation
-    * 7. Cultural events and arts
-    * 8. Sports news and major competitions
-    * 9. Education and academic research
-    * 10. Crime and law enforcement
-    * 11. Natural disasters and emergency responses
-    * 12. Infrastructure and urban development
-    * 13. Agriculture and food security
-    * 14. Energy and resource management
-    * 15. Transportation and logistics
-    * 16. Military and defense news
-    * 17. Diplomatic relations and international agreements
-    * 18. Religious events and conflicts
-    * 19. Migration and refugee situations
-    * 20. Labor issues and workers' rights
-    * 21. Tourism and travel industry developments
-    * 22. Fashion and lifestyle trends
-    * 23. Entertainment industry news
-    * 24. Scientific discoveries and space exploration
-    * 25. Historical findings and archaeological discoveries
+   * 1. Political developments
+   * 2. Economic trends and business news
+   * 3. Social issues and human rights
+   * 4. Environmental concerns and climate change
+   * 5. Health and medical breakthroughs
+   * 6. Technology and innovation
+   * 7. Cultural events and arts
+   * 8. Sports news and major competitions
+   * 9. Education and academic research
+   * 10. Crime and law enforcement
+   * 11. Natural disasters and emergency responses
+   * 12. Infrastructure and urban development
+   * 13. Agriculture and food security
+   * 14. Energy and resource management
+   * 15. Transportation and logistics
+   * 16. Military and defense news
+   * 17. Diplomatic relations and international agreements
+   * 18. Religious events and conflicts
+   * 19. Migration and refugee situations
+   * 20. Labor issues and workers' rights
+   * 21. Tourism and travel industry developments
+   * 22. Fashion and lifestyle trends
+   * 23. Entertainment industry news
+   * 24. Scientific discoveries and space exploration
+   * 25. Historical findings and archaeological discoveries
    */
   category: string;
 
@@ -109,7 +116,7 @@ export type CampaignAttributes = {
   /**
    * latlang points, 2 depth array because a user may select different areas of the worldmap
    */
-  map_bounds: string[][];
+  map_bounds: CampaignMapBoundariesAttributes[];
 
   /**
    * instruction
@@ -120,7 +127,7 @@ export type CampaignAttributes = {
    */
   instruction: string;
 
-  evidence: EvidenceAttributes[];
+  evidence?: EvidenceAttributes[];
   winning_criteria?: CriteriaAttributes;
 };
 
@@ -149,8 +156,15 @@ export type EvidenceAttributes = {
    */
   transaction_id?: string;
 
+  /**
+   * The authenticated user
+   * NOTE: an authenticated user may not be a Witness user yet.
+   */
   user_id: string;
   user: UserAttributes;
+
+  witness_id: string;
+  witness: WitnessAttributes;
 
   campaign_id: string;
 
@@ -201,7 +215,8 @@ export type CriteriaAttributes = {
   instruction?: string;
 };
 
-export type CreateCaseRequest = {
+export type CreateCampaignRequest = {
   text: CampaignAttributes["text"];
+  category: CampaignAttributes["category"];
   criteria: Pick<CriteriaAttributes, "value" | "description">[];
 };
