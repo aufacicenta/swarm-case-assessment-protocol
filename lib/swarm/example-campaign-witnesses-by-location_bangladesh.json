@@ -1,0 +1,222 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "23.8103",
+                "long": "90.4125",
+                "country": "Bangladesh",
+                "state": "Dhaka Division",
+                "city": "Dhaka"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.3636",
+                "long": "88.6241",
+                "country": "Bangladesh",
+                "state": "Dhaka Division",
+                "city": "Narayanganj"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.9088",
+                "long": "89.1220",
+                "country": "Bangladesh",
+                "state": "Dhaka Division",
+                "city": "Gazipur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.3569",
+                "long": "91.7832",
+                "country": "Bangladesh",
+                "state": "Chittagong Division",
+                "city": "Chittagong"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.8456",
+                "long": "91.3992",
+                "country": "Bangladesh",
+                "state": "Chittagong Division",
+                "city": "Comilla"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "21.8233",
+                "long": "92.3646",
+                "country": "Bangladesh",
+                "state": "Chittagong Division",
+                "city": "Cox's Bazar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.3745",
+                "long": "88.6042",
+                "country": "Bangladesh",
+                "state": "Rajshahi Division",
+                "city": "Rajshahi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.7471",
+                "long": "88.7261",
+                "country": "Bangladesh",
+                "state": "Rajshahi Division",
+                "city": "Bogra"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.8949",
+                "long": "91.8687",
+                "country": "Bangladesh",
+                "state": "Sylhet Division",
+                "city": "Sylhet"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.7439",
+                "long": "89.2752",
+                "country": "Bangladesh",
+                "state": "Rangpur Division",
+                "city": "Rangpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.6324",
+                "long": "88.6418",
+                "country": "Bangladesh",
+                "state": "Rangpur Division",
+                "city": "Dinajpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.8456",
+                "long": "89.5403",
+                "country": "Bangladesh",
+                "state": "Khulna Division",
+                "city": "Khulna"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.7010",
+                "long": "90.3535",
+                "country": "Bangladesh",
+                "state": "Khulna Division",
+                "city": "Bagerhat"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.1613",
+                "long": "89.1991",
+                "country": "Bangladesh",
+                "state": "Khulna Division",
+                "city": "Jessore"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.0088",
+                "long": "90.4093",
+                "country": "Bangladesh",
+                "state": "Mymensingh Division",
+                "city": "Mymensingh"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.7471",
+                "long": "90.4203",
+                "country": "Bangladesh",
+                "state": "Mymensingh Division",
+                "city": "Jamalpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.5424",
+                "long": "89.6309",
+                "country": "Bangladesh",
+                "state": "Dhaka Division",
+                "city": "Faridpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.4607",
+                "long": "91.1809",
+                "country": "Bangladesh",
+                "state": "Chittagong Division",
+                "city": "Brahmanbaria"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.8481",
+                "long": "89.3730",
+                "country": "Bangladesh",
+                "state": "Rajshahi Division",
+                "city": "Sirajganj"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.4079",
+                "long": "91.7740",
+                "country": "Bangladesh",
+                "state": "Sylhet Division",
+                "city": "Moulvibazar"
+            }
+        ]
+    }
+]

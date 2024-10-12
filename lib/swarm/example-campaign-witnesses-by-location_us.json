@@ -1,0 +1,332 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "34.0522",
+                "long": "-118.2437",
+                "country": "United States",
+                "state": "California",
+                "city": "Los Angeles"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "37.7749",
+                "long": "-122.4194",
+                "country": "United States",
+                "state": "California",
+                "city": "San Francisco"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.7157",
+                "long": "-117.1611",
+                "country": "United States",
+                "state": "California",
+                "city": "San Diego"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "37.3382",
+                "long": "-121.8863",
+                "country": "United States",
+                "state": "California",
+                "city": "San Jose"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "38.5816",
+                "long": "-121.4944",
+                "country": "United States",
+                "state": "California",
+                "city": "Sacramento"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.7490",
+                "long": "-84.3880",
+                "country": "United States",
+                "state": "Georgia",
+                "city": "Atlanta"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.9533",
+                "long": "-83.3923",
+                "country": "United States",
+                "state": "Georgia",
+                "city": "Athens"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.8407",
+                "long": "-83.6324",
+                "country": "United States",
+                "state": "Georgia",
+                "city": "Macon"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.0809",
+                "long": "-81.0912",
+                "country": "United States",
+                "state": "Georgia",
+                "city": "Savannah"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.5207",
+                "long": "-84.3391",
+                "country": "United States",
+                "state": "Georgia",
+                "city": "Jonesboro"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "29.7604",
+                "long": "-95.3698",
+                "country": "United States",
+                "state": "Texas",
+                "city": "Houston"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.7767",
+                "long": "-96.7970",
+                "country": "United States",
+                "state": "Texas",
+                "city": "Dallas"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "29.4241",
+                "long": "-98.4936",
+                "country": "United States",
+                "state": "Texas",
+                "city": "San Antonio"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.2672",
+                "long": "-97.7431",
+                "country": "United States",
+                "state": "Texas",
+                "city": "Austin"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.7555",
+                "long": "-97.3308",
+                "country": "United States",
+                "state": "Texas",
+                "city": "Fort Worth"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "28.5383",
+                "long": "-81.3792",
+                "country": "United States",
+                "state": "Florida",
+                "city": "Orlando"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.7617",
+                "long": "-80.1918",
+                "country": "United States",
+                "state": "Florida",
+                "city": "Miami"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "27.9506",
+                "long": "-82.4572",
+                "country": "United States",
+                "state": "Florida",
+                "city": "Tampa"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.3322",
+                "long": "-81.6557",
+                "country": "United States",
+                "state": "Florida",
+                "city": "Jacksonville"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.1224",
+                "long": "-80.1373",
+                "country": "United States",
+                "state": "Florida",
+                "city": "Fort Lauderdale"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "40.7128",
+                "long": "-74.0060",
+                "country": "United States",
+                "state": "New York",
+                "city": "New York City"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "42.6526",
+                "long": "-73.7562",
+                "country": "United States",
+                "state": "New York",
+                "city": "Albany"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "42.8864",
+                "long": "-78.8784",
+                "country": "United States",
+                "state": "New York",
+                "city": "Buffalo"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "43.0481",
+                "long": "-76.1474",
+                "country": "United States",
+                "state": "New York",
+                "city": "Syracuse"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "43.1610",
+                "long": "-77.6109",
+                "country": "United States",
+                "state": "New York",
+                "city": "Rochester"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "40.0024",
+                "long": "-75.2581",
+                "country": "United States",
+                "state": "Pennsylvania",
+                "city": "Philadelphia"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "40.4406",
+                "long": "-79.9959",
+                "country": "United States",
+                "state": "Pennsylvania",
+                "city": "Pittsburgh"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "41.2033",
+                "long": "-77.1945",
+                "country": "United States",
+                "state": "Pennsylvania",
+                "city": "State College"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "40.2732",
+                "long": "-76.8867",
+                "country": "United States",
+                "state": "Pennsylvania",
+                "city": "Harrisburg"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "40.6084",
+                "long": "-75.4902",
+                "country": "United States",
+                "state": "Pennsylvania",
+                "city": "Allentown"
+            }
+        ]
+    }
+]

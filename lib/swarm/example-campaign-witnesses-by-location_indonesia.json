@@ -1,0 +1,266 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "-6.2088",
+                "long": "106.8456",
+                "country": "Indonesia",
+                "state": "Jakarta",
+                "city": "Jakarta"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.9175",
+                "long": "107.6191",
+                "country": "Indonesia",
+                "state": "West Java",
+                "city": "Bandung"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.9932",
+                "long": "110.4203",
+                "country": "Indonesia",
+                "state": "Central Java",
+                "city": "Semarang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.2575",
+                "long": "112.7521",
+                "country": "Indonesia",
+                "state": "East Java",
+                "city": "Surabaya"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.7971",
+                "long": "110.3688",
+                "country": "Indonesia",
+                "state": "Special Region of Yogyakarta",
+                "city": "Yogyakarta"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-5.1477",
+                "long": "119.4327",
+                "country": "Indonesia",
+                "state": "South Sulawesi",
+                "city": "Makassar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-0.9431",
+                "long": "100.3714",
+                "country": "Indonesia",
+                "state": "West Sumatra",
+                "city": "Padang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "3.5952",
+                "long": "98.6722",
+                "country": "Indonesia",
+                "state": "North Sumatra",
+                "city": "Medan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-3.3194",
+                "long": "114.5929",
+                "country": "Indonesia",
+                "state": "South Kalimantan",
+                "city": "Banjarmasin"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-8.6705",
+                "long": "115.2126",
+                "country": "Indonesia",
+                "state": "Bali",
+                "city": "Denpasar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.4025",
+                "long": "106.7942",
+                "country": "Indonesia",
+                "state": "West Java",
+                "city": "Bogor"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.2349",
+                "long": "106.9896",
+                "country": "Indonesia",
+                "state": "West Java",
+                "city": "Bekasi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.3876",
+                "long": "106.8317",
+                "country": "Indonesia",
+                "state": "West Java",
+                "city": "Depok"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.9147",
+                "long": "107.6098",
+                "country": "Indonesia",
+                "state": "West Java",
+                "city": "Cimahi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.8915",
+                "long": "107.6107",
+                "country": "Indonesia",
+                "state": "West Java",
+                "city": "Cirebon"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.5655",
+                "long": "110.8243",
+                "country": "Indonesia",
+                "state": "Central Java",
+                "city": "Surakarta"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-6.8922",
+                "long": "109.6699",
+                "country": "Indonesia",
+                "state": "Central Java",
+                "city": "Pekalongan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.4254",
+                "long": "109.2371",
+                "country": "Indonesia",
+                "state": "Central Java",
+                "city": "Purwokerto"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.0247",
+                "long": "110.3381",
+                "country": "Indonesia",
+                "state": "Central Java",
+                "city": "Ungaran"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.1625",
+                "long": "112.6503",
+                "country": "Indonesia",
+                "state": "East Java",
+                "city": "Sidoarjo"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.4598",
+                "long": "112.7178",
+                "country": "Indonesia",
+                "state": "East Java",
+                "city": "Malang"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.6298",
+                "long": "111.5239",
+                "country": "Indonesia",
+                "state": "East Java",
+                "city": "Madiun"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-8.1733",
+                "long": "113.7009",
+                "country": "Indonesia",
+                "state": "East Java",
+                "city": "Jember"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-7.7543",
+                "long": "113.2105",
+                "country": "Indonesia",
+                "state": "East Java",
+                "city": "Probolinggo"
+            }
+        ]
+    }
+]

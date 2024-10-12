@@ -1,0 +1,277 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "-23.5505",
+                "long": "-46.6333",
+                "country": "Brazil",
+                "state": "São Paulo",
+                "city": "São Paulo"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-23.9618",
+                "long": "-46.3322",
+                "country": "Brazil",
+                "state": "São Paulo",
+                "city": "Santos"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-22.9068",
+                "long": "-47.0626",
+                "country": "Brazil",
+                "state": "São Paulo",
+                "city": "Campinas"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-23.5329",
+                "long": "-46.7916",
+                "country": "Brazil",
+                "state": "São Paulo",
+                "city": "Osasco"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-23.4961",
+                "long": "-46.8522",
+                "country": "Brazil",
+                "state": "São Paulo",
+                "city": "Barueri"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-19.9167",
+                "long": "-43.9345",
+                "country": "Brazil",
+                "state": "Minas Gerais",
+                "city": "Belo Horizonte"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-19.7472",
+                "long": "-47.9381",
+                "country": "Brazil",
+                "state": "Minas Gerais",
+                "city": "Uberaba"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-21.7631",
+                "long": "-43.3433",
+                "country": "Brazil",
+                "state": "Minas Gerais",
+                "city": "Juiz de Fora"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-18.9186",
+                "long": "-48.2772",
+                "country": "Brazil",
+                "state": "Minas Gerais",
+                "city": "Uberlândia"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-19.9359",
+                "long": "-44.0144",
+                "country": "Brazil",
+                "state": "Minas Gerais",
+                "city": "Contagem"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-22.9068",
+                "long": "-43.1729",
+                "country": "Brazil",
+                "state": "Rio de Janeiro",
+                "city": "Rio de Janeiro"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-22.8832",
+                "long": "-43.1036",
+                "country": "Brazil",
+                "state": "Rio de Janeiro",
+                "city": "Niterói"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-22.7561",
+                "long": "-43.4608",
+                "country": "Brazil",
+                "state": "Rio de Janeiro",
+                "city": "Nova Iguaçu"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-22.5056",
+                "long": "-44.0883",
+                "country": "Brazil",
+                "state": "Rio de Janeiro",
+                "city": "Volta Redonda"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-22.4175",
+                "long": "-42.9641",
+                "country": "Brazil",
+                "state": "Rio de Janeiro",
+                "city": "Petrópolis"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-12.9714",
+                "long": "-38.5014",
+                "country": "Brazil",
+                "state": "Bahia",
+                "city": "Salvador"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-12.2506",
+                "long": "-38.9666",
+                "country": "Brazil",
+                "state": "Bahia",
+                "city": "Feira de Santana"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-14.7908",
+                "long": "-39.2786",
+                "country": "Brazil",
+                "state": "Bahia",
+                "city": "Itabuna"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-14.8661",
+                "long": "-40.8394",
+                "country": "Brazil",
+                "state": "Bahia",
+                "city": "Vitória da Conquista"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-12.5617",
+                "long": "-41.4561",
+                "country": "Brazil",
+                "state": "Bahia",
+                "city": "Seabra"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-25.4284",
+                "long": "-49.2733",
+                "country": "Brazil",
+                "state": "Paraná",
+                "city": "Curitiba"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-23.3045",
+                "long": "-51.1696",
+                "country": "Brazil",
+                "state": "Paraná",
+                "city": "Londrina"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-23.4210",
+                "long": "-51.9331",
+                "country": "Brazil",
+                "state": "Paraná",
+                "city": "Maringá"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-25.5163",
+                "long": "-54.5854",
+                "country": "Brazil",
+                "state": "Paraná",
+                "city": "Foz do Iguaçu"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "-25.0945",
+                "long": "-50.1633",
+                "country": "Brazil",
+                "state": "Paraná",
+                "city": "Ponta Grossa"
+            }
+        ]
+    }
+]

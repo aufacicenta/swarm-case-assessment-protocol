@@ -1,0 +1,233 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "31.5204",
+                "long": "74.3587",
+                "country": "Pakistan",
+                "state": "Punjab",
+                "city": "Lahore"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "31.4180",
+                "long": "73.0790",
+                "country": "Pakistan",
+                "state": "Punjab",
+                "city": "Faisalabad"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.1575",
+                "long": "71.5249",
+                "country": "Pakistan",
+                "state": "Punjab",
+                "city": "Multan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "32.1877",
+                "long": "74.1945",
+                "country": "Pakistan",
+                "state": "Punjab",
+                "city": "Gujranwala"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.6007",
+                "long": "73.0679",
+                "country": "Pakistan",
+                "state": "Punjab",
+                "city": "Rawalpindi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.8607",
+                "long": "67.0011",
+                "country": "Pakistan",
+                "state": "Sindh",
+                "city": "Karachi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.3960",
+                "long": "68.3578",
+                "country": "Pakistan",
+                "state": "Sindh",
+                "city": "Hyderabad"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.2361",
+                "long": "68.4100",
+                "country": "Pakistan",
+                "state": "Sindh",
+                "city": "Sukkur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.7399",
+                "long": "68.8184",
+                "country": "Pakistan",
+                "state": "Sindh",
+                "city": "Larkana"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "27.7244",
+                "long": "68.8228",
+                "country": "Pakistan",
+                "state": "Sindh",
+                "city": "Mirpur Khas"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.0151",
+                "long": "71.5249",
+                "country": "Pakistan",
+                "state": "Khyber Pakhtunkhwa",
+                "city": "Peshawar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.9987",
+                "long": "71.4691",
+                "country": "Pakistan",
+                "state": "Khyber Pakhtunkhwa",
+                "city": "Mardan"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.1688",
+                "long": "73.2215",
+                "country": "Pakistan",
+                "state": "Khyber Pakhtunkhwa",
+                "city": "Abbottabad"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "34.0080",
+                "long": "71.5785",
+                "country": "Pakistan",
+                "state": "Khyber Pakhtunkhwa",
+                "city": "Mingora"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.7681",
+                "long": "72.3612",
+                "country": "Pakistan",
+                "state": "Khyber Pakhtunkhwa",
+                "city": "Kohat"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "30.1798",
+                "long": "66.9750",
+                "country": "Pakistan",
+                "state": "Balochistan",
+                "city": "Quetta"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "27.8119",
+                "long": "66.6117",
+                "country": "Pakistan",
+                "state": "Balochistan",
+                "city": "Khuzdar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "28.4907",
+                "long": "65.4155",
+                "country": "Pakistan",
+                "state": "Balochistan",
+                "city": "Turbat"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.0519",
+                "long": "63.0485",
+                "country": "Pakistan",
+                "state": "Balochistan",
+                "city": "Gwadar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "29.8159",
+                "long": "64.3996",
+                "country": "Pakistan",
+                "state": "Balochistan",
+                "city": "Chaman"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "33.6844",
+                "long": "73.0479",
+                "country": "Pakistan",
+                "state": "Islamabad Capital Territory",
+                "city": "Islamabad"
+            }
+        ]
+    }
+]

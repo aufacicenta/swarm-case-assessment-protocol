@@ -1,0 +1,277 @@
+{
+    "id": "id",
+    "text": "What is the current approval rating of the newly elected president in Brazil?",
+    "category": "political-developments",
+    "user_id": "user_id",
+    "user": {
+        "id": "user_id",
+        "raw_user_meta_data": {
+            "name": "Liberal Lisa"
+        },
+        "campaigns": []
+    },
+    "evidence": [
+        {
+            "id": "id",
+            "text": "**Evidence Report: Approval Rating of Brazilian President Lula - Business Owners in São Paulo**\n\n---\n\n**Introduction:**\n\nThis report explores the current approval rating of President Lula among ten business owners in São Paulo, following the announcement of his economic policies last week. Information was gathered through a series of interviews, each documented with signed consent forms. Each business owner provided insights into their approval or disapproval of the president's economic policies.\n\n**Interview Summaries:**\n\n1. **Antonio Silva**\n   - **Business:** Retail – Electronics\n   - **Statement:** \"I am cautiously optimistic about the President's policies. They seem aimed at stimulating the economy which could boost consumer spending; thus, I approve, but with reservations.\"\n   - **Consent Form:** Signed\n\n2. **Mariana Santos**\n   - **Business:** Restaurant Owner\n   - **Statement:** \"I disapprove. The recent policy changes don't address the fundamental issues we face in the hospitality sector like high taxes and regulation.\"\n   - **Consent Form:** Signed\n\n3. **Carlos Mendes**\n   - **Business:** Apparel Manufacturing\n   - **Statement:** \"The policies look comprehensive but lack immediate solutions for our rising operational costs. For now, I disapprove.\"\n   - **Consent Form:** Signed\n\n4. **Ana Ribeiro**\n   - **Business:** Tech Startup\n   - **Statement:** \"I fully support the President's vision for digital infrastructure investment. It directly benefits tech enterprises like mine.\"\n   - **Consent Form:** Signed\n\n5. **Roberto Costa**\n   - **Business:** Logistics\n   - **Statement:** \"I approve. The policies are promising regarding transport infrastructure improvements, which is vital for our business operations.\"\n   - **Consent Form:** Signed\n\n6. **Claudia Fernandez**\n   - **Business:** Café Owner\n   - **Statement:** \"I'm neutral. There are positive elements, but I'm not convinced they'll be implemented effectively.\"\n   - **Consent Form:** Signed\n\n7. **Ricardo Lopes**\n   - **Business:** Construction\n   - **Statement:** \"Disapprove. The economic plans fall short in addressing the credit crunch affecting the construction industry.\"\n   - **Consent Form:** Signed\n\n8. **Luciana Pereira**\n   - **Business:** Bookstore Chain\n   - **Statement:** \"Approve. The tax incentives for small businesses are encouraging, although more could be done.\"\n   - **Consent Form**: Signed\n\n9. **Fernando Oliveira**\n   - **Business:** Export-Import\n   - **Statement:** \"I disapprove of the protectionist slant in the policies. It could hinder our competitiveness internationally.\"\n   - **Consent Form:** Signed\n\n10. **Juliana Almeida**\n    - **Business:** Automotive Parts Manufacturer\n    - **Statement:** \"Approve. Policies are beneficial for local manufacturing and could foster more domestic investment.\"\n    - **Consent Form:** Signed\n\n**Conclusion:**\n\nAmong the ten business owners interviewed, four expressed approval of President Lula's latest economic policies, four expressed disapproval, while two remained neutral. This provides a snapshot of mixed reactions, indicating a divided stance on the effectiveness and foresight of the new policies among São Paulo business leaders.\n\n**Appendices:**\n\n- **Consent Forms:** Copies of signed consent forms are attached herewith.\n- **Transcripts:** Full transcripts of audio interviews available upon request.\n\n---\n\nThis report synthesizes insights directly from business owners in São Paulo, offering a nuanced understanding of local business sentiment toward President Lula's economic strategies.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Tech-savvy Taylor"
+                },
+                "campaigns": []
+            },
+            "witness_id": "witness_id",
+            "witness": {
+                "id": "witness_id",
+                "user_id": "user_id",
+                "user": {
+                    "id": "user_id",
+                    "raw_user_meta_data": {
+                        "name": "Tech-savvy Taylor"
+                    },
+                    "campaigns": []
+                },
+                "location_history": [
+                    {
+                        "lat": "-23.5505",
+                        "long": "-46.6333",
+                        "country": "Brazil",
+                        "state": "São Paulo",
+                        "city": "São Paulo",
+                        "created_at": "Fri Oct 11 2024",
+                        "updated_at": "Fri Oct 11 2024"
+                    }
+                ]
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Instagram",
+                "slug": "@agivenpost"
+            },
+            "winning_criteria": {
+                "description": "Audio recordings or transcripts of interviews with at least 10 São Paulo business owners, along with their signed consent forms. The interviews should specifically address their reactions to President Lula's economic policies announced last week. Each interview should include the business owner's name, type of business, and their explicit statement about their approval or disapproval of the president's policies.",
+                "value": "valid",
+                "score": 0.4
+            }
+        },
+        {
+            "id": "id",
+            "text": "**Example Evidence Report**\n\n**Title:** Assessment of President Lula’s Economic Policies: Business Owners' Perspectives in São Paulo\n\n**Objective:** To evaluate the current approval rating of President Lula’s recently announced economic policies among business owners in São Paulo.\n\n**Methodology:**\n- Conducted structured interviews with 10 business owners from São Paulo.\n- Obtained written consent for participation and recording of interviews.\n- Transcribed audio recordings to capture verbatim statements.\n- Ensured confidentiality and provided anonymity if requested.\n\n**Participants:**\n1. **Ana Pereira**\n   - Business: Restaurant Owner\n   - Consent: Signed\n   - Statement: “I approve of President Lula’s economic policies as they focus on boosting local trade which might help increase the footfall in my restaurant.”\n\n2. **Carlos Souza**\n   - Business: Retail Store Owner\n   - Consent: Signed\n   - Statement: “While I appreciate the intent behind the policies, I disapprove due to the increase in operating costs resulting from new tax regulations.”\n\n3. **Mariana López**\n   - Business: Online Boutique Owner\n   - Consent: Signed\n   - Statement: “I disapprove because the policies do not support e-commerce growth which is vital for my business sustainability.”\n\n4. **João Almeida**\n   - Business: Construction Company Owner\n   - Consent: Signed\n   - Statement: “I approve, as the infrastructure development incentives could directly benefit my line of work.”\n\n5. **Rafael Silva**\n   - Business: Tech Startup Founder\n   - Consent: Signed\n   - Statement: “I disapprove due to the lack of tech sector support, which could stifle innovation and growth.”\n\n6. **Beatriz Mendes**\n   - Business: Supermarket Chain Owner\n   - Consent: Signed\n   - Statement: “I am undecided, as the potential benefits are unclear amidst changing economic forecasts.”\n\n7. **Lucas Ferreira**\n   - Business: Export Business Owner\n   - Consent: Signed\n   - Statement: “I disapprove, primarily because the focus on domestic trade could impact my business operations internationally.”\n\n8. **Juliana Castaneda**\n   - Business: Coffee Shop Owner\n   - Consent: Signed\n   - Statement: “I approve, the policies are expected to reduce costs for local suppliers, which is beneficial for my supply chain.”\n\n9. **Fernando Dias**\n   - Business: Automotive Parts Manufacturer\n   - Consent: Signed\n   - Statement: “I approve as there are supportive measures for manufacturing growth which can capitalize my expansion plans.”\n\n10. **Patricia Gomes**\n    - Business: Travel Agency Owner\n    - Consent: Signed\n    - Statement: “I disapprove due to the lack of direct support for the travel industry, which has been struggling.”\n\n**Outcome:**\n- Total Approvals: 4\n- Total Disapprovals: 5\n- Undecided: 1\n\n**Conclusion:**\nThe interviews reveal a nearly balanced opinion among São Paulo business owners on President Lula's recent economic policies, with a slight tendency towards disapproval. These insights reflect diverse business impacts of the policies and underscore varying sectoral challenges and opportunities.\n\n**Attachments:**\n- Audio recordings (secured)\n- Signed consent forms\n- Full transcripts of interviews\n\n**Report Compiled by:** [Your Name]\n\n**Date:** [Current Date] \n\n**Disclaimer:** This report represents the opinions of a small sample and may not be representative of the wider business community in Brazil. Further studies would be recommended for a comprehensive assessment.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Moderate Mike"
+                },
+                "campaigns": []
+            },
+            "witness_id": "witness_id",
+            "witness": {
+                "id": "witness_id",
+                "user_id": "user_id",
+                "user": {
+                    "id": "user_id",
+                    "raw_user_meta_data": {
+                        "name": "Moderate Mike"
+                    },
+                    "campaigns": []
+                },
+                "location_history": [
+                    {
+                        "lat": "-23.9618",
+                        "long": "-46.3322",
+                        "country": "Brazil",
+                        "state": "São Paulo",
+                        "city": "Santos",
+                        "created_at": "Fri Oct 11 2024",
+                        "updated_at": "Fri Oct 11 2024"
+                    }
+                ]
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies.",
+                "value": "invalid",
+                "score": 0.6
+            }
+        },
+        {
+            "id": "id",
+            "text": "### Evidence Report: Approval Rating of President Lula in São Paulo\n\n**Objective:**  \nTo assess the current approval rating of Brazil's newly elected president, Luiz Inácio Lula da Silva, specifically from the perspective of business owners in São Paulo, in relation to his economic policies announced last week.\n\n**Methodology:**  \n- Conduct audio-recorded interviews with at least 10 business owners in São Paulo.\n- Obtain signed consent forms from each participant.\n- Collect detailed reactions focused on President Lula's recent economic policies.\n- Document each business owner's name, type of business, and explicit statement regarding their approval or disapproval of the policies.\n\n#### Participants:\n\n1. **Name:** Carla Mendes  \n   **Business Type:** Retail Clothing Store  \n   **Consent Form:** Signed  \n   **Statement:** \"I cautiously approve of President Lula's economic policies. The focus on social inclusion and market stability is promising for small retailers like mine.\"\n\n2. **Name:** Ricardo Santos  \n   **Business Type:** Food and Beverage Supplier  \n   **Consent Form:** Signed  \n   **Statement:** \"Disapproval. The new policies increase our operational costs and uncertainty in trade tariffs, affecting our supply chains negatively.\"\n\n3. **Name:** Ana Oliveira  \n   **Business Type:** Tech Startup  \n   **Consent Form:** Signed  \n   **Statement:** \"Approval. Policies promoting digital infrastructure and entrepreneurship are exactly what the tech sector needs to thrive.\"\n\n4. **Name:** Marco Silva  \n   **Business Type:** Construction Company  \n   **Consent Form:** Signed  \n   **Statement:** \"Disapprove. Economic measures are too focused on immediate social spending without addressing long-term investment incentives.\"\n\n5. **Name:** Beatriz Gomes  \n   **Business Type:** Organic Farm  \n   **Consent Form:** Signed  \n   **Statement:** \"Approving heartily. Sustainable agricultural investments will help my business and improve environmental practices.\"\n\n6. **Name:** João Pereira  \n   **Business Type:** Pharmaceutical Distributor  \n   **Consent Form:** Signed  \n   **Statement:** \"Approve. The health policy reforms are overdue, and these new policies could enhance the network's efficiency.\"\n\n7. **Name:** Renata Lima  \n   **Business Type:** Manufacturing Firm  \n   **Consent Form:** Signed  \n   **Statement:** \"I disapprove. The policies seem to cater more to consumers without addressing industrial challenges.\"\n\n8. **Name:** Paulo Ramos  \n   **Business Type:** Real Estate Agency  \n   **Consent Form:** Signed  \n   **Statement:** \"Approve. The new economic guidelines can stimulate the housing market, which benefits my line of work.\"\n\n9. **Name:** Lucas Ferraz  \n   **Business Type:** E-commerce Business  \n   **Consent Form:** Signed  \n   **Statement:** \"Disapprove. Uncertain regulatory environment creates barriers for online business growth.\"\n\n10. **Name:** Julia Rocha  \n    **Business Type:** Automotive Parts Supplier  \n    **Consent Form:** Signed  \n    **Statement:** \"Approve. Policies aimed at green technology in manufacturing can provide new growth opportunities.\"\n\n#### Summary of Findings:\n\n- **Approval:** 6 out of 10 business owners express approval of President Lula's economic policies, noting benefits in sectors like technology, health, agriculture, real estate, and green manufacturing.\n- **Disapproval:** 4 out of 10 business owners disapprove, citing increased costs, lack of industrial support, and regulatory uncertainty as key concerns.\n  \nThe report suggests a moderate level of approval for President Lula's economic policies among São Paulo business owners, with positive sentiment in sustainable and innovative sectors, contrasted by concerns from traditional and cost-sensitive industries.\n\n**Attachments:**\n\n- Transcripts of Interviews\n- Audio Recordings\n- Signed Consent Forms",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Traditional Tim"
+                },
+                "campaigns": []
+            },
+            "witness_id": "witness_id",
+            "witness": {
+                "id": "witness_id",
+                "user_id": "user_id",
+                "user": {
+                    "id": "user_id",
+                    "raw_user_meta_data": {
+                        "name": "Traditional Tim"
+                    },
+                    "campaigns": []
+                },
+                "location_history": [
+                    {
+                        "lat": "-22.9068",
+                        "long": "-47.0626",
+                        "country": "Brazil",
+                        "state": "São Paulo",
+                        "city": "Campinas",
+                        "created_at": "Fri Oct 11 2024",
+                        "updated_at": "Fri Oct 11 2024"
+                    }
+                ]
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Telegram",
+                "slug": "@agivengroup"
+            },
+            "winning_criteria": {
+                "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies.",
+                "value": "invalid",
+                "score": 0.6
+            }
+        },
+        {
+            "id": "id",
+            "text": "### Evidence Report: Approval Rating of President Lula Among São Paulo Business Owners\n\n**Objective:**  \nThe objective of this report is to gather qualitative evidence regarding the approval rating of President Luiz Inácio Lula da Silva among business owners in São Paulo, Brazil, specifically in reaction to his economic policies announced in the previous week.\n\n**Methodology:**  \nThis evidence report is based on audio recordings and transcripts of interviews conducted with 10 business owners in São Paulo. Each interviewee has provided signed consent for their participation. The interviews focused on their perceptions and reactions to President Lula's recent economic policies.\n\n---\n\n#### Interview Summaries\n\n1. **Interviewee:** Carlos Mendes  \n   **Business Type:** Retail - Clothing Store  \n   **Approval Statement:**  \n   _\"While I appreciate the policies aiming to strengthen local production, the increase in taxes is concerning. Overall, I disapprove of the current economic direction.\"_  \n   **Consent:** Signed\n\n2. **Interviewee:** Ana Torres  \n   **Business Type:** Restaurant Owner  \n   **Approval Statement:**  \n   _\"Lula's focus on equitable economic growth is commendable, but rapid policy change is unsettling for business planning. I remain cautiously approving.\"_  \n   **Consent:** Signed\n\n3. **Interviewee:** Pedro Almeida  \n   **Business Type:** Technology Startup  \n   **Approval Statement:**  \n   _\"The incentives for tech companies are beneficial, which aligns with my goals. I approve of the policies.\"_  \n   **Consent:** Signed\n\n4. **Interviewee:** Luisa Carvalho    \n   **Business Type:** Import/Export - Automotive Parts  \n   **Approval Statement:**  \n   _\"With higher tariffs proposed, I'm worried about international trade viability. I disapprove of these policies.\"_  \n   **Consent:** Signed\n\n5. **Interviewee:** Mauricio Ferreira  \n   **Business Type:** Coffee Exporter  \n   **Approval Statement:**  \n   _\"Tax breaks for agricultural exports are a step in the right direction. I wholeheartedly approve.\"_  \n   **Consent:** Signed\n\n6. **Interviewee:** Beatriz Silva  \n   **Business Type:** Bookstore Owner  \n   **Approval Statement:**  \n   _\"Increased consumer spending as a result of economic stimulus is positive for my sales. I approve.\"_  \n   **Consent:** Signed\n\n7. **Interviewee:** Antonio Lima   \n   **Business Type:** Manufacturing - Electronics  \n   **Approval Statement:**  \n   _\"The emphasis on sustainability is appreciated, but the costs of compliance are high. I am currently disapproving.\"_  \n   **Consent:** Signed\n\n8. **Interviewee:** Gabriela Santos  \n   **Business Type:** Real Estate Developer  \n   **Approval Statement:**  \n   _\"Tax and policy stability is needed more than changes; hence, I currently disapprove.\"_  \n   **Consent:** Signed\n\n9. **Interviewee:** Rafael Rocha  \n   **Business Type:** Transportation/Logistics  \n   **Approval Statement:**  \n   _\"Efforts to improve infrastructure are promising, though execution details are still vague. Approve, with reservations.\"_  \n   **Consent:** Signed\n\n10. **Interviewee:** Helena Costa  \n    **Business Type:** Pharmacy  \n    **Approval Statement:**  \n    _\"Price controls on medicines support lower-income customers, an action I approve of.\"_  \n    **Consent:** Signed\n\n---\n\n**Analysis:**  \nFrom the interviews, there is an evident mix of support and dissatisfaction among business owners in São Paulo. Approval hinged on business sector advantages, fairness, and execution realism, with a breadth of responses reflecting either satisfaction or concerns primarily over taxation, economic stability, and sector-specific implications.\n\n**Conclusion:**  \nThe gathered qualitative evidence indicates a diverse spectrum of reactions to President Lula's economic policies among business owners in São Paulo. The gathered data suggests a near-equal division between approval and disapproval, signifying a polarized business sentiment toward economic future prospects.\n\n**Attachments:**  \n- Transcripts of all interviews  \n- Signed consent forms\n\n**Note:**  \nThe above report reflects opinions gathered during a specific timeframe post-policy announcement. Future surveys may encounter different sentiments influenced by new policy impacts or adjustments.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Progressive Priya"
+                },
+                "campaigns": []
+            },
+            "witness_id": "witness_id",
+            "witness": {
+                "id": "witness_id",
+                "user_id": "user_id",
+                "user": {
+                    "id": "user_id",
+                    "raw_user_meta_data": {
+                        "name": "Progressive Priya"
+                    },
+                    "campaigns": []
+                },
+                "location_history": [
+                    {
+                        "lat": "-23.5329",
+                        "long": "-46.7916",
+                        "country": "Brazil",
+                        "state": "São Paulo",
+                        "city": "Osasco",
+                        "created_at": "Fri Oct 11 2024",
+                        "updated_at": "Fri Oct 11 2024"
+                    }
+                ]
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Twitter",
+                "slug": "@agivenpost"
+            },
+            "winning_criteria": {
+                "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies.",
+                "value": "invalid",
+                "score": 0.6
+            }
+        },
+        {
+            "id": "id",
+            "text": "**Evidence Report: Current Approval Rating of the Newly Elected President in Brazil**\n\n**Overview:**\nThis report investigates the current approval rating of Brazil's newly elected President, Luiz Inácio Lula da Silva, focusing on valid evidence derived from reliable and comprehensive sources. The goal is to ensure that gathered evidence fulfills the specified criteria for validity by encompassing input from a sufficiently large and representative sample and specifically addressing reactions to President Lula's recent economic policies.\n\n**1. Nationwide Opinion Poll:**\n- **Conducted by:** Datafolha Institute\n- **Sample Size:** 2,500 respondents\n- **Methodology:** Stratified random sampling to ensure representation across all Brazilian states and demographics.\n- **Date Conducted:** September 2023\n- **Approval Rating Results:** \n  - Strongly Approve: 42%\n  - Somewhat Approve: 18%\n  - Neutral/No Opinion: 15%\n  - Somewhat Disapprove: 10%\n  - Strongly Disapprove: 15%\n- **Details on Economic Policies:** Respondents were asked specifically about President Lula's economic policies, including recent reforms in social welfare and taxation, with 55% expressing approval of these policies.\n\n**2. Business Sector Survey:**\n- **Conducted by:** Brazilian National Confederation of Industry (CNI)\n- **Sample Size:** 1,200 business owners across various sectors\n- **Methodology:** Random sampling with a requirement for businesses to have over 50 employees to ensure substantial business owner input.\n- **Date Conducted:** August 2023\n- **Approval Rating on Economic Policies:**\n  - Approving: 48%\n  - Disapproving: 27%\n  - No Opinion: 25%\n- **Consent:** Signed consent was obtained from all participants. Businesses were explicitly asked to rate their approval of the president's economic policies, with questions probing impacts on business environment and growth expectations.\n\n**3. Cross-sector Panel Discussions:**\n- **Partnered Organizers:** Brazilian Institute of Economics and the Getulio Vargas Foundation\n- **Format:** Series of panel discussions with 15 prominent economists and policy analysts.\n- **Objective:** To discuss the perceived impact of President Lula's economic maneuvers, such as fiscal policy changes and investment incentives.\n- **Date Held:** July 2023\n- **Findings Summary:** A majority consensus (66%) indicated a favorable view of the economic policies, highlighting expected long-term benefits despite short-term uncertainties. \n- **Limitations:** While providing rich qualitative data, these discussions do not quantify public opinion.\n\n**Invalidated Evidence:**\n- **Small-Scale Interviews:**\n  - Interviews conducted with fewer than 10 business owners that lack the required breadth are deemed invalid.\n- **Lack of Signed Consent:**\n  - Participation without documented consent was excluded due to ethical considerations in data gathering.\n- **General Surveys Not Specific to Economic Policies:**\n  - Studies focusing generally on political approval without explicitly addressing economic policies do not meet this report's criteria.\n\n**Conclusion:**\nThe current approval rating for President Lula shows a majority of positive sentiment, particularly toward his economic policies, according to representative and reliable sources. The strong approval in nationwide and business-specific polls denotes a favorable reception of the recent economic strategies implemented under his administration.\n\n**Recommendation for Further Research:**\nContinual monitoring through subsequent quarterly polls, expanding surveys to include smaller business sectors and greater regional diversity to refine understanding and observe potential shifts in public opinion over time.",
+            "user_id": "user_id",
+            "campaign_id": "id",
+            "user": {
+                "id": "user_id",
+                "raw_user_meta_data": {
+                    "name": "Progressive Priya"
+                },
+                "campaigns": []
+            },
+            "witness_id": "witness_id",
+            "witness": {
+                "id": "witness_id",
+                "user_id": "user_id",
+                "user": {
+                    "id": "user_id",
+                    "raw_user_meta_data": {
+                        "name": "Progressive Priya"
+                    },
+                    "campaigns": []
+                },
+                "location_history": [
+                    {
+                        "lat": "-23.4961",
+                        "long": "-46.8522",
+                        "country": "Brazil",
+                        "state": "São Paulo",
+                        "city": "Barueri",
+                        "created_at": "Fri Oct 11 2024",
+                        "updated_at": "Fri Oct 11 2024"
+                    }
+                ]
+            },
+            "channel_id": "id",
+            "channel": {
+                "id": "id",
+                "name": "Reddit",
+                "slug": "r/swarmnetwork"
+            },
+            "winning_criteria": {
+                "description": "Audio recordings or transcripts of interviews with at least 10 São Paulo business owners, along with their signed consent forms. The interviews should specifically address their reactions to President Lula's economic policies announced last week. Each interview should include the business owner's name, type of business, and their explicit statement about their approval or disapproval of the president's policies.",
+                "value": "valid",
+                "score": 0.4
+            }
+        }
+    ],
+    "map_bounds": [],
+    "criteria": [
+        {
+            "description": "Audio recordings or transcripts of interviews with at least 10 São Paulo business owners, along with their signed consent forms. The interviews should specifically address their reactions to President Lula's economic policies announced last week. Each interview should include the business owner's name, type of business, and their explicit statement about their approval or disapproval of the president's policies.",
+            "value": "valid",
+            "score": 0.4
+        },
+        {
+            "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies.",
+            "value": "invalid",
+            "score": 0.6
+        }
+    ],
+    "instruction": "For the given question: What is the current approval rating of the newly elected president in Brazil?\n\nDetermine if \"{{evidence.text}}\" leans more towards \"valid\" or \"invalid\".\n\nRespond strictly with \"valid\" or \"invalid\" only. Avoid adding any symbols or characters rather than literraly \"valid\" or \"invalid\".",
+    "starts_at": 1728678716043,
+    "ends_at": 1728678716043,
+    "judging_models": [
+        {
+            "provider": "openai",
+            "version": "gpt-o1"
+        }
+    ],
+    "winning_criteria": {
+        "description": "Evidence that does not meet the above criteria, such as interviews with fewer than 10 business owners, lack of signed consent forms, or interviews that do not specifically address reactions to President Lula's recent economic policies.",
+        "value": "invalid",
+        "score": 0.6
+    }
+}

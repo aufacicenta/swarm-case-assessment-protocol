@@ -1,0 +1,548 @@
+[
+    {
+        "location_history": [
+            {
+                "lat": "26.8467",
+                "long": "80.9462",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Lucknow"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.3176",
+                "long": "82.9739",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Varanasi"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "27.1767",
+                "long": "78.0081",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Agra"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "28.6692",
+                "long": "77.4538",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Ghaziabad"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.4499",
+                "long": "80.3319",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Kanpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "28.9845",
+                "long": "77.7064",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Meerut"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.7606",
+                "long": "83.3732",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Gorakhpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "27.8974",
+                "long": "78.0880",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Aligarh"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "29.9457",
+                "long": "78.1642",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Saharanpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.4358",
+                "long": "81.8463",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "city": "Prayagraj (Allahabad)"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "19.0760",
+                "long": "72.8777",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Mumbai"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "18.5204",
+                "long": "73.8567",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Pune"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "21.1458",
+                "long": "79.0882",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Nagpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "19.8762",
+                "long": "75.3433",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Aurangabad"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "19.9975",
+                "long": "73.7898",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Nashik"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "18.4088",
+                "long": "76.5604",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Solapur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "19.2183",
+                "long": "72.9781",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Thane"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "16.7050",
+                "long": "74.2433",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Kolhapur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "19.1383",
+                "long": "77.3210",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Nanded"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "19.9615",
+                "long": "79.2961",
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Chandrapur"
+            }
+        ]
+    },
+    {
+        "lat": "25.5941",
+        "long": "85.1376",
+        "country": "India",
+        "state": "Bihar",
+        "city": "Patna"
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.3748",
+                "long": "85.5137",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Gaya"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.5941",
+                "long": "87.8550",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Bhagalpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.1542",
+                "long": "85.8918",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Muzaffarpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.7747",
+                "long": "84.7462",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Purnia"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.6838",
+                "long": "85.2139",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Darbhanga"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.1185",
+                "long": "85.3910",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Arrah"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.2425",
+                "long": "86.9842",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Begusarai"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.3452",
+                "long": "87.2849",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Katihar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "25.5647",
+                "long": "84.6706",
+                "country": "India",
+                "state": "Bihar",
+                "city": "Munger"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.5726",
+                "long": "88.3639",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Kolkata"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.5958",
+                "long": "88.2636",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Howrah"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.9868",
+                "long": "87.8550",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Durgapur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.2324",
+                "long": "87.8614",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Asansol"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.3072",
+                "long": "88.3258",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Siliguri"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.7271",
+                "long": "88.3953",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Darjeeling"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.5204",
+                "long": "87.3119",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Bardhaman"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.8670",
+                "long": "88.3952",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Barasat"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.5697",
+                "long": "88.3697",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Kalyani"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.2419",
+                "long": "88.5137",
+                "country": "India",
+                "state": "West Bengal",
+                "city": "Krishnanagar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.2599",
+                "long": "77.4126",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Bhopal"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.7196",
+                "long": "75.8577",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Indore"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.1815",
+                "long": "79.9864",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Jabalpur"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "26.2183",
+                "long": "78.1828",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Gwalior"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.8388",
+                "long": "78.7378",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Sagar"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.7239",
+                "long": "75.8267",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Ujjain"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "24.5362",
+                "long": "81.3037",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Satna"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "22.9676",
+                "long": "76.0534",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Dewas"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "23.1765",
+                "long": "75.7885",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Ratlam"
+            }
+        ]
+    },
+    {
+        "location_history": [
+            {
+                "lat": "21.8257",
+                "long": "76.3547",
+                "country": "India",
+                "state": "Madhya Pradesh",
+                "city": "Khandwa"
+            }
+        ]
+    }
+]

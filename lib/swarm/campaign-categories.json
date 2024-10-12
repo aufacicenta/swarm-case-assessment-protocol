@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Political developments",
+        "slug": "political-developments",
+        "description": "Coverage of elections, government policies, legislative changes, and political movements at local, national, and international levels."
+    },
+    {
+        "name": "Economic trends and business news",
+        "slug": "economic-trends-and-business-news",
+        "description": "Reports on financial markets, economic indicators, corporate news, trade policies, and their impacts on global and local economies."
+    },
+    {
+        "name": "Social issues and human rights",
+        "slug": "social-issues-and-human-rights",
+        "description": "Exploration of societal challenges, equality movements, civil rights, and human rights violations across different communities and nations."
+    },
+    {
+        "name": "Environmental concerns and climate change",
+        "slug": "environmental-concerns-and-climate-change",
+        "description": "Coverage of global warming, pollution, biodiversity loss, conservation efforts, and sustainable development initiatives."
+    },
+    {
+        "name": "Health and medical breakthroughs",
+        "slug": "health-and-medical-breakthroughs",
+        "description": "Reports on new medical treatments, disease outbreaks, public health policies, and advancements in healthcare technology."
+    },
+    {
+        "name": "Technology and innovation",
+        "slug": "technology-and-innovation",
+        "description": "Coverage of emerging technologies, digital trends, startup ecosystems, and their impact on various industries and daily life."
+    },
+    {
+        "name": "Cultural events and arts",
+        "slug": "cultural-events-and-arts",
+        "description": "Reports on festivals, exhibitions, performances, and developments in visual arts, music, literature, and other forms of cultural expression."
+    },
+    {
+        "name": "Sports news and major competitions",
+        "slug": "sports-news-and-major-competitions",
+        "description": "Coverage of local and international sporting events, athlete profiles, and developments in various sports disciplines."
+    },
+    {
+        "name": "Education and academic research",
+        "slug": "education-and-academic-research",
+        "description": "Reports on educational policies, academic studies, scientific research, and innovations in teaching and learning methodologies."
+    },
+    {
+        "name": "Crime and law enforcement",
+        "slug": "crime-and-law-enforcement",
+        "description": "Coverage of criminal activities, law enforcement operations, judicial proceedings, and developments in criminal justice systems."
+    },
+    {
+        "name": "Natural disasters and emergency responses",
+        "slug": "natural-disasters-and-emergency-responses",
+        "description": "Reports on earthquakes, hurricanes, floods, and other natural calamities, as well as humanitarian aid and disaster management efforts."
+    },
+    {
+        "name": "Infrastructure and urban development",
+        "slug": "infrastructure-and-urban-development",
+        "description": "Coverage of construction projects, urban planning initiatives, smart city developments, and infrastructure improvements."
+    },
+    {
+        "name": "Agriculture and food security",
+        "slug": "agriculture-and-food-security",
+        "description": "Reports on farming practices, food production, agricultural policies, and efforts to combat hunger and ensure sustainable food supplies."
+    },
+    {
+        "name": "Energy and resource management",
+        "slug": "energy-and-resource-management",
+        "description": "Coverage of energy production, renewable resources, resource conservation, and policies related to energy and natural resource utilization."
+    },
+    {
+        "name": "Transportation and logistics",
+        "slug": "transportation-and-logistics",
+        "description": "Reports on developments in public transit, shipping, aviation, automotive industry, and supply chain management."
+    },
+    {
+        "name": "Military and defense news",
+        "slug": "military-and-defense-news",
+        "description": "Coverage of armed forces activities, defense technologies, military operations, and national security policies."
+    },
+    {
+        "name": "Diplomatic relations and international agreements",
+        "slug": "diplomatic-relations-and-international-agreements",
+        "description": "Reports on international negotiations, treaties, diplomatic missions, and relationships between nations."
+    },
+    {
+        "name": "Religious events and conflicts",
+        "slug": "religious-events-and-conflicts",
+        "description": "Coverage of major religious gatherings, interfaith dialogues, religious conflicts, and the role of religion in society and politics."
+    },
+    {
+        "name": "Migration and refugee situations",
+        "slug": "migration-and-refugee-situations",
+        "description": "Reports on population movements, refugee crises, immigration policies, and the integration of migrants in host countries."
+    },
+    {
+        "name": "Labor issues and workers' rights",
+        "slug": "labor-issues-and-workers-rights",
+        "description": "Coverage of labor disputes, workers' rights movements, workplace safety, employment trends, and labor market policies."
+    },
+    {
+        "name": "Tourism and travel industry developments",
+        "slug": "tourism-and-travel-industry-developments",
+        "description": "Reports on trends in global tourism, developments in the hospitality industry, travel regulations, and the economic impact of tourism."
+    },
+    {
+        "name": "Fashion and lifestyle trends",
+        "slug": "fashion-and-lifestyle-trends",
+        "description": "Coverage of fashion industry news, consumer trends, lifestyle changes, and their cultural and economic impacts."
+    },
+    {
+        "name": "Entertainment industry news",
+        "slug": "entertainment-industry-news",
+        "description": "Reports on film, television, music, and digital media industries, including celebrity news and entertainment business developments."
+    },
+    {
+        "name": "Scientific discoveries and space exploration",
+        "slug": "scientific-discoveries-and-space-exploration",
+        "description": "Coverage of breakthrough scientific research, space missions, astronomical discoveries, and advancements in various scientific fields."
+    },
+    {
+        "name": "Historical findings and archaeological discoveries",
+        "slug": "historical-findings-and-archaeological-discoveries",
+        "description": "Reports on new archaeological excavations, historical research, preservation of cultural heritage, and reinterpretations of historical events."
+    }
+]
